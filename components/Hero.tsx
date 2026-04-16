@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { ChevronDown } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { useLanguage } from '../lib/LanguageContext';
 
 const Hero: React.FC = () => {
@@ -220,13 +221,12 @@ const Hero: React.FC = () => {
           >
             {t('hero.cta_primary')}
           </a>
-          <a 
-            href="#fleet"
-            onClick={(e) => scrollToSection(e, 'fleet')}
+          <Link 
+            to={`/${language}/flotte`}
             className="w-full sm:w-auto bg-transparent border border-white/40 text-white hover:border-white hover:bg-white/10 px-6 md:px-10 py-3.5 md:py-4 rounded-none text-base md:text-lg font-medium transition-all backdrop-blur-sm min-w-[180px] md:min-w-[200px] cursor-pointer text-center uppercase tracking-wider hover:-translate-y-1"
           >
             {t('hero.cta_secondary')}
-          </a>
+          </Link>
         </div>
       </header>
 
