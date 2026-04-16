@@ -1,0 +1,326 @@
+{
+  "common": {
+    "whatsapp": "Contact us on WhatsApp",
+    "book_now": "Book Now",
+    "read_more": "Read more",
+    "send": "Send",
+    "hours": "Monday - Sunday: 08:00 - 22:00",
+    "location": "Sala Al Jadida, Morocco",
+    "avail": "avail",
+    "out_of_stock": "Sold out",
+    "ready_to_road": "Ready to take the road?",
+    "cta_desc": "Book your ideal vehicle now or chat with our team on WhatsApp.",
+    "contact_whatsapp": "CONTACT ON WHATSAPP"
+  },
+  "car": {
+    "types": {
+      "Berline": "Sedan",
+      "Citadine": "City Car",
+      "SUV": "SUV"
+    },
+    "transmission": {
+      "Manuelle": "Manual",
+      "Automatique": "Automatic"
+    },
+    "fuel": {
+      "Diesel": "Diesel",
+      "Essence/Diesel": "Petrol/Diesel"
+    },
+    "features": {
+      "Climatisation": "Air Conditioning",
+      "Bluetooth": "Bluetooth",
+      "Sécurité ABS": "ABS Safety",
+      "GPS": "GPS",
+      "Aide au stationnement": "Parking Assist",
+      "Régulateur": "Cruise Control",
+      "Toit Ouvrant": "Sunroof",
+      "Caméra 360": "360° Camera",
+      "Sièges Cuir": "Leather Seats",
+      "Apple CarPlay": "Apple CarPlay",
+      "Cockpit Digital": "Digital Cockpit",
+      "Aide à la conduite": "Driving Assist",
+      "Système Son Bose": "Bose Sound System",
+      "Mode Sport": "Sport Mode"
+    },
+    "accessories": {
+      "Sièges auto": "Car Seats",
+      "JAWAZ": "JAWAZ Tag",
+      "Sièges auto Luxe": "Luxury Car Seats",
+      "JAWAZ Pro": "JAWAZ Pro"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "fleet": "Fleet",
+    "reviews": "Reviews",
+    "contact": "Contact",
+    "blog": "Blog",
+    "whatsapp": "Book via WhatsApp",
+    "language": "Language",
+    "logo_alt": "O'Salon Car - Car Rental Agency Sala Al Jadida"
+  },
+  "hero": {
+    "welcome": "Welcome to O'Salon Car",
+    "title": "Rent a Car in",
+    "city": "Sala Al Jadida",
+    "subtitle": "Premium rental excellence in the heart of Sala Al Jadida. A modern fleet and exceptional customer service for your travels across Morocco.",
+    "cta_primary": "Book Now",
+    "cta_secondary": "Explore Fleet"
+  },
+  "fleet": {
+    "tagline": "EXCLUSIVE SELECTION",
+    "title": "Our Fleet",
+    "subtitle": "Discover our recent and well-maintained vehicles",
+    "per_day": "/ day",
+    "manual": "Manual",
+    "automatic": "Automatic",
+    "diesel": "Diesel",
+    "petrol": "Petrol/Diesel",
+    "features": "Features",
+    "available": "Available",
+    "reserve": "Book Now",
+    "badges": {
+      "economic": "Economy",
+      "popular": "Popular",
+      "comfort": "Comfort",
+      "new": "New",
+      "premium": "Premium",
+      "exclusive": "Exclusive"
+    }
+  },
+  "cities": {
+    "Rabat-Sale Airport": "Rabat-Sale Airport",
+    "Sala Al Jadida": "Sala Al Jadida",
+    "Tangier": "Tangier",
+    "Marrakech": "Marrakech",
+    "Fes": "Fez",
+    "Agadir": "Agadir"
+  },
+  "booking": {
+    "title_main": "Reserve Your",
+    "title_vehicle": "Vehicle",
+    "subtitle": "Fill out the form below to calculate your quote.",
+    "online_booking": "BOOK ONLINE",
+    "form_name": "Full Name",
+    "form_name_placeholder": "Ex: Mohammed Alami",
+    "form_car": "Desired Vehicle",
+    "form_car_placeholder": "-- Choose a car --",
+    "form_delivery": "Delivery",
+    "form_delivery_placeholder": "-- Choose a city --",
+    "form_pickup": "Pickup",
+    "form_return": "Return",
+    "form_submit": "Request Booking via WhatsApp",
+    "summary_title": "Booking Summary",
+    "summary_client": "Client",
+    "summary_vehicle": "Vehicle",
+    "summary_delivery": "Delivery",
+    "summary_duration": "Duration",
+    "summary_days": "Days",
+    "summary_ready": "Ready for your reservation",
+    "summary_selected_duration": "Selected duration",
+    "summary_complete_form": "Complete the form",
+    "footer_help": "Payment on delivery. Free cancellation.",
+    "error_past_date": "Pickup date cannot be in the past.",
+    "error_return_date": "Return date must be after pickup date.",
+    "error_name": "Please enter your name.",
+    "error_car": "Please select a car.",
+    "error_delivery": "Please select a delivery location.",
+    "whatsapp_message": "Hello, I am {name}.\n\nI would like to reserve a {car} for {days} days.\n\n- Delivery: {delivery}\n- Pickup Date: {pickup}\n- Return Date: {return}\n\nThank you for confirming availability."
+  },
+  "why_choose_us": {
+    "title_main": "Why Choose",
+    "title_brand": "O'Salon",
+    "title_suffix": "Rental Excellence",
+    "tagline": "Why Choose Us?",
+    "features": {
+      "flexibility": {
+        "title": "Flexible Rates",
+        "desc": "Solutions adapted to your budget and the duration of your stay in Morocco."
+      },
+      "recent": {
+        "title": "Recent Vehicles",
+        "desc": "A fleet less than 12 months old, rigorously maintained for absolute reliability."
+      },
+      "support": {
+        "title": "24/7 Customer Service",
+        "desc": "Dedicated assistance day and night. If needed, we are just a call away."
+      },
+      "airport": {
+        "title": "Airport Delivery",
+        "desc": "Your car awaits you as soon as you land. Free delivery at Rabat-Salé airport."
+      },
+      "insurance": {
+        "title": "Comprehensive Insurance",
+        "desc": "Drive with peace of mind. All-risk insurance with a minimum 5% deductible."
+      },
+      "transparency": {
+        "title": "Total Transparency",
+        "desc": "No hidden fees, no surprises. Honest and direct service without compromise."
+      }
+    }
+  },
+  "faq": {
+    "tagline": "Frequently Asked Questions",
+    "title_main": "Need ",
+    "title_accent": "Information",
+    "desc": "Quickly find answers to your questions about car rental in Morocco",
+    "items": {
+      "i1": {
+        "q": "What documents are needed to rent a car?",
+        "a": "ID card or passport, valid driver's license"
+      },
+      "i2": {
+        "q": "What is the minimum age to rent a car?",
+        "a": "The minimum age is 21. Some models may require 23 or older."
+      },
+      "i3": {
+        "q": "How long must I have held my license?",
+        "a": "A license valid for at least 2 years is mandatory."
+      },
+      "i4": {
+        "q": "Do I have to pay a deposit?",
+        "a": "Yes, a deposit may be required depending on the chosen model. It is returned after the vehicle is returned."
+      },
+      "i5": {
+        "q": "Do you offer airport delivery?",
+        "a": "Yes, delivery and pickup at Rabat-Salé Airport are available on request."
+      },
+      "i6": {
+        "q": "Is the mileage limited?",
+        "a": "We offer unlimited mileage."
+      },
+      "i7": {
+        "q": "What payment methods do you accept?",
+        "a": "Cash, bank transfer"
+      },
+      "i8": {
+        "q": "Can I add a second driver?",
+        "a": "Yes, an additional driver is possible upon presentation of their license."
+      },
+      "i9": {
+        "q": "What to do in case of breakdown or accident?",
+        "a": "Contact us immediately. 24/7 assistance included with each rental."
+      },
+      "i10": {
+        "q": "Are the cars insured?",
+        "a": "Yes, all our cars are insured with all-risk insurance and a 5% deductible."
+      }
+    }
+  },
+  "testimonials": {
+    "tagline": "Testimonials",
+    "title": "Our Clients' Trust",
+    "r1": {
+      "text": "I rented from them last month, clean service and new car. May God bless you."
+    },
+    "r2": {
+      "text": "Fantastic service. The car was delivered to my hotel on time and was impeccable. Simple and efficient."
+    },
+    "r3": {
+      "text": "Reasonable price and very professional staff. I highly recommend for your trips to Morocco."
+    },
+    "r4": {
+      "text": "Finally a rental agency where 'new car' actually means new. The Duster ran perfectly and the AC was a lifesaver. Quick drop-off at the airport!"
+    },
+    "r5": {
+      "text": "Loyal customer for 6 months. It's rare to find such seriousness in Sala Al Jadida. Neat cars and fixed prices, even in high season. Well done!"
+    },
+    "r6": {
+      "text": "Very good value for money. I was a bit afraid at first but the deposit was returned immediately after the return. Serious."
+    }
+  },
+  "footer": {
+    "about": "About",
+    "about_text": "Your trusted partner for car rental in Sala Al Jadida and across Morocco.",
+    "links": "Quick Links",
+    "contact": "Contact us",
+    "rights": "© 2024 O'Salon Car Rental. All rights reserved."
+  },
+  "contact_page": {
+    "hero_tag": "Let us help you",
+    "hero_title": "Contact Us",
+    "hero_desc": "We are at your disposal to answer all your questions and accompany you in your reservation.",
+    "info_title": "Our Contact Info",
+    "info_desc": "Feel free to contact us by phone, WhatsApp or email. Our team in Sala Al Jadida will be happy to answer you.",
+    "label_address": "Address",
+    "label_phone": "Phone & WhatsApp",
+    "label_email": "Email",
+    "label_hours": "Opening Hours",
+    "form_title": "Send us a message",
+    "form_name_label": "Full Name",
+    "form_name_placeholder": "Your name",
+    "form_phone_label": "Phone",
+    "form_phone_placeholder": "Your number",
+    "form_email_label": "Email",
+    "form_email_placeholder": "your@email.com",
+    "form_msg_label": "Message",
+    "form_msg_placeholder": "How can we help you?",
+    "form_submit": "Send Message",
+    "form_footer": "We will respond to you as soon as possible. You can also contact us via WhatsApp."
+  },
+  "flotte_page": {
+    "hero_tag": "Exploration & Comfort",
+    "hero_title": "A Fleet of Excellence",
+    "hero_subtitle": "for all your needs",
+    "hero_desc": "From agile city cars to premium SUVs, discover a selection of maintained vehicles.",
+    "categories_title": "Our Vehicle Categories",
+    "cat_citadine": {
+      "title": "Economic City Cars",
+      "desc": "Perfect for the city, easy to park and fuel efficient.",
+      "models": "Renault Clio 5, Peugeot 208, Opel Corsa"
+    },
+    "cat_suv": {
+      "title": "SUV & Family",
+      "desc": "Space, comfort and safety for your trips with family or friends.",
+      "models": "Kia Sportage, Hyundai Tucson"
+    },
+    "cat_berline": {
+      "title": "Standard Sedans",
+      "desc": "The ideal compromise between comfort and budget. Robust and reliable vehicles.",
+      "models": "Dacia Logan"
+    },
+    "experience_title": "More than just a rental,",
+    "experience_accent": "a premium experience",
+    "benefits": {
+      "b1": {
+        "title": "Full Service",
+        "text": "Each vehicle undergoes a rigorous technical check after each return."
+      },
+      "b2": {
+        "title": "Impeccable Hygiene",
+        "text": "Exterior cleaning and complete interior disinfection."
+      },
+      "b3": {
+        "title": "24/7 Assistance",
+        "text": "In case of unforeseen events, our team is available day and night."
+      }
+    },
+    "stats_label": "Customer Satisfaction",
+    "faq_title": "FAQ Fleet & Rental",
+    "faq_subtitle": "Everything you need to know about our vehicles",
+    "cta_title": "Ready to take the road?",
+    "cta_desc": "Book your ideal vehicle now or chat with our team on WhatsApp.",
+    "cta_whatsapp": "CONTACT ON WHATSAPP",
+    "cta_online": "BOOK ONLINE"
+  },
+  "blog": {
+    "title": "Our Blog",
+    "tag": "Inspirations & Advice",
+    "desc": "Discover our articles, tips and guides to prepare your trip.",
+    "read_article": "Read more",
+    "back": "Back to blog",
+    "tags_label": "Tags",
+    "cta_title": "Need a vehicle?",
+    "cta_text": "Discover our fleet of vehicles for your stay in Rabat, Salé and all over Morocco.",
+    "cta_button": "Book Now",
+    "cta_contact": "Contact Us"
+  },
+  "seo": {
+    "home_title": "Car Rental Sala Al Jadida | Osalon Car Morocco",
+    "home_desc": "Car rental agency in Sala Al Jadida. Modern fleet, competitive rates.",
+    "fleet_title": "Our Fleet | Osalon Car Rental",
+    "fleet_desc": "Discover our varied fleet of vehicles in Sala Al Jadida.",
+    "contact_title": "Contact Us | Osalon Car Rental",
+    "contact_desc": "Contact Osalon Car Rental for any rental request."
+  }
+}

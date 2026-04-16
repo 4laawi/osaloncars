@@ -1,0 +1,327 @@
+{
+  "common": {
+    "whatsapp": "Contactez-nous sur WhatsApp",
+    "book_now": "Réserver maintenant",
+    "read_more": "Lire l'article",
+    "send": "Envoyer",
+    "hours": "Lundi - Dimanche: 08:00 - 22:00",
+    "location": "Sala Al Jadida, Maroc",
+    "avail": "dispo",
+    "out_of_stock": "Rupture",
+    "ready_to_road": "Prêt à prendre la route ?",
+    "cta_desc": "Réservez dès maintenant votre véhicule idéal ou discutez avec notre équipe sur WhatsApp.",
+    "contact_whatsapp": "CONTACTER SUR WHATSAPP"
+  },
+  "car": {
+    "types": {
+      "Berline": "Berline",
+      "Citadine": "Citadine",
+      "SUV": "SUV"
+    },
+    "transmission": {
+      "Manuelle": "Manuelle",
+      "Automatique": "Automatique"
+    },
+    "fuel": {
+      "Diesel": "Diesel",
+      "Essence/Diesel": "Essence/Diesel"
+    },
+    "features": {
+      "Climatisation": "Climatisation",
+      "Bluetooth": "Bluetooth",
+      "Sécurité ABS": "Sécurité ABS",
+      "GPS": "GPS",
+      "Aide au stationnement": "Aide au stationnement",
+      "Régulateur": "Régulateur",
+      "Toit Ouvrant": "Toit Ouvrant",
+      "Caméra 360": "Caméra 360",
+      "Sièges Cuir": "Sièges Cuir",
+      "Apple CarPlay": "Apple CarPlay",
+      "Cockpit Digital": "Cockpit Digital",
+      "Aide à la conduite": "Aide à la conduite",
+      "Système Son Bose": "Système Son Bose",
+      "Mode Sport": "Mode Sport"
+    },
+    "accessories": {
+      "Sièges auto": "Sièges auto",
+      "JAWAZ": "JAWAZ",
+      "Sièges auto Luxe": "Sièges auto Luxe",
+      "JAWAZ Pro": "JAWAZ Pro"
+    }
+  },
+  "nav": {
+    "home": "Accueil",
+    "fleet": "Flotte",
+    "reviews": "Avis",
+    "contact": "Contact",
+    "blog": "Blog",
+    "whatsapp": "Réserver via WhatsApp",
+    "language": "Langue",
+    "logo_alt": "O'Salon Car - Agence de Location de Voiture Sala Al Jadida"
+  },
+  "hero": {
+    "welcome": "Bienvenue chez O'Salon Car",
+    "title": "Location de Voiture",
+    "city": "Sala Al Jadida",
+    "subtitle": "L'excellence de la location premium au cœur de Sala Al Jadida. Une flotte moderne et un service client d'exception pour vos déplacements à travers le Maroc.",
+    "cta_primary": "Réserver maintenant",
+    "cta_secondary": "Découvrir la Flotte"
+  },
+  "fleet": {
+    "tagline": "SÉLECTION EXCLUSIVE",
+    "title": "Notre Flotte",
+    "subtitle": "Découvrez nos véhicules récents et entretenus",
+    "per_day": "/ jour",
+    "manual": "Manuelle",
+    "automatic": "Automatique",
+    "diesel": "Diesel",
+    "petrol": "Essence/Diesel",
+    "features": "Caractéristiques",
+    "available": "Disponible",
+    "reserve": "Réserver",
+    "badges": {
+      "economic": "Économique",
+      "popular": "Populaire",
+      "comfort": "Confort",
+      "new": "Nouveau",
+      "premium": "Premium",
+      "exclusive": "Exclusif"
+    }
+  },
+  "cities": {
+    "Rabat-Sale Airport": "Aéroport Rabat-Salé",
+    "Sala Al Jadida": "Sala Al Jadida",
+    "Tangier": "Tanger",
+    "Marrakech": "Marrakech",
+    "Fes": "Fès",
+    "Agadir": "Agadir"
+  },
+  "booking": {
+    "title_main": "Réservez Votre",
+    "title_vehicle": "Véhicule",
+    "subtitle": "Remplissez le formulaire ci-dessous pour calculer votre devis.",
+    "online_booking": "RÉSERVER EN LIGNE",
+    "form_name": "Nom Complet",
+    "form_name_placeholder": "Ex: Mohammed Alami",
+    "form_car": "Véhicule Souhaité",
+    "form_car_placeholder": "-- Choisir une voiture --",
+    "form_delivery": "Livraison",
+    "form_delivery_placeholder": "-- Choisir une ville --",
+    "form_pickup": "Départ",
+    "form_return": "Retour",
+    "form_submit": "Demander la Réservation via WhatsApp",
+    "summary_title": "Résumé de la Réservation",
+    "summary_client": "Client",
+    "summary_vehicle": "Véhicule",
+    "summary_delivery": "Livraison",
+    "summary_duration": "Durée",
+    "summary_days": "Jours",
+    "summary_ready": "Prêt pour votre réservation",
+    "summary_selected_duration": "Durée sélectionnée",
+    "summary_complete_form": "Complétez le formulaire",
+    "footer_help": "Paiement à la livraison. Annulation gratuite.",
+    "error_past_date": "La date de départ ne peut pas être dans le passé.",
+    "error_return_date": "La date de retour doit être après la date de départ.",
+    "error_name": "Veuillez entrer votre nom.",
+    "error_car": "Veuillez sélectionner une voiture.",
+    "error_delivery": "Veuillez sélectionner un lieu de livraison.",
+    "whatsapp_message": "Bonjour, je suis {name}.\n\nJe souhaite réserver une {car} pour {days} jours.\n\n- Livraison: {delivery}\n- Date de départ: {pickup}\n- Date de retour: {return}\n\nMerci de me confirmer la disponibilité."
+  },
+  "why_choose_us": {
+    "title_main": "Pourquoi",
+    "title_brand": "O'Salon",
+    "title_suffix": "l'Excellence de la Location",
+    "tagline": "Pourquoi Nous Choisir ?",
+    "features": {
+      "flexibility": {
+        "title": "Tarifs Flexibles",
+        "desc": "Des solutions adaptées à votre budget et à la durée de votre séjour au Maroc."
+      },
+      "recent": {
+        "title": "Véhicules Récents",
+        "desc": "Une flotte de moins de 12 mois, rigoureusement entretenue pour une fiabilité absolue."
+      },
+      "support": {
+        "title": "Service Client 24/7",
+        "desc": "Une assistance dévouée jour et nuit. En cas de besoin, nous sommes juste au bout du fil."
+      },
+      "airport": {
+        "title": "Livraison Aéroport",
+        "desc": "Votre voiture vous attend dès l'atterrissage. Livraison gratuite à l'aéroport Rabat-Salé."
+      },
+      "insurance": {
+        "title": "Assurance Complète",
+        "desc": "Roulez l'esprit tranquille. Assurance tout risque avec franchise de minimum 5%."
+      },
+      "transparency": {
+        "title": "Transparence Totale",
+        "desc": "Pas de frais cachés, pas de surprises. Un service honnête et direct sans compromis."
+      }
+    }
+  },
+  "faq": {
+    "tagline": "Questions Fréquentes",
+    "title_main": "Besoin d'",
+    "title_accent": "Informations",
+    "desc": "Trouvez rapidement les réponses à vos questions sur la location de véhicules au Maroc",
+    "items": {
+      "i1": {
+        "q": "Quels sont les documents nécessaires pour louer une voiture ?",
+        "a": "Carte d'identité ou passeport, permis de conduire valide"
+      },
+      "i2": {
+        "q": "Quel est l'âge minimum pour louer une voiture ?",
+        "a": "L'âge minimum est de 21 ans. Certains modèles peuvent nécessiter 23 ans ou plus."
+      },
+      "i3": {
+        "q": "Quelle ancienneté du permis est exigée ?",
+        "a": "Un permis valide depuis au moins 2 ans est obligatoire."
+      },
+      "i4": {
+        "q": "Est-ce que je dois payer une caution ?",
+        "a": "Oui, une caution peut être exigée selon le modèle choisi. Elle est restituée après le retour du véhicule."
+      },
+      "i5": {
+        "q": "Est-ce que vous offrez la livraison à l'aéroport ?",
+        "a": "Oui, la livraison et la récupération à l'Aéroport Rabat-Salé sont disponibles sur demande."
+      },
+      "i6": {
+        "q": "Le kilométrage est-il limité ?",
+        "a": "Nous offrons kilométrage illimité."
+      },
+      "i7": {
+        "q": "Quels modes de paiement acceptez-vous ?",
+        "a": "Espèces, virement bancaire"
+      },
+      "i8": {
+        "q": "Puis-je ajouter un deuxième conducteur ?",
+        "a": "Oui, un conducteur additionnel est possible avec présentation de son permis."
+      },
+      "i9": {
+        "q": "Que faire en cas de panne ou d'accident ?",
+        "a": "Contactez-nous immédiatement. Assistance 24/7 incluse avec chaque location."
+      },
+      "i10": {
+        "q": "Les voitures sont-elles assurées ?",
+        "a": "Oui, toutes nos voitures sont assurées assurance tout risque avec franchise de 5%."
+      }
+    }
+  },
+  "testimonials": {
+    "tagline": "Témoignages",
+    "title": "La Confiance de nos Clients",
+    "r1": {
+      "text": "Khdemt m3ahom chhar li fat, service nqi w tomobil jdida. Lah y3tikom saha.",
+      "is_darija": true
+    },
+    "r2": {
+      "text": "Service fantastique. La voiture a été livrée à mon hôtel à l'heure et était impeccable. Simple et efficace."
+    },
+    "r3": {
+      "text": "Prix raisonnable et personnel très professionnel. Je recommande vivement pour vos voyages au Maroc."
+    },
+    "r4": {
+      "text": "Enfin une agence où 'voiture neuve' signifie vraiment neuve. La Duster a parfaitement fonctionné et la clim nous a sauvé la vie. Dépôt rapide à l'aéroport !"
+    },
+    "r5": {
+      "text": "Client fidèle depuis 6 mois. C'est rare de trouver ce sérieux à Sala Al Jadida. Voitures nickels et prix fixes, même en haute saison. Bravo !"
+    },
+    "r6": {
+      "text": "Très bon rapport qualité-prix. J'avais un peu peur au début mais la caution a été rendue immédiatement après le retour. Sérieux."
+    }
+  },
+  "footer": {
+    "about": "À Propos",
+    "about_text": "Votre partenaire de confiance pour la location de voiture à Sala Al Jadida et partout au Maroc.",
+    "links": "Liens Rapides",
+    "contact": "Contactez-nous",
+    "rights": "© 2024 O'Salon Car Rental. Tous droits réservés."
+  },
+  "contact_page": {
+    "hero_tag": "Laissez-nous vous aider",
+    "hero_title": "Contactez-nous",
+    "hero_desc": "Nous sommes à votre disposition pour répondre à toutes vos questions et vous accompagner dans votre réservation.",
+    "info_title": "Nos Coordonnées",
+    "info_desc": "N'hésitez pas à nous contacter par téléphone, sur WhatsApp ou par email. Notre équipe de Sala Al Jadida se fera un plaisir de vous répondre.",
+    "label_address": "Adresse",
+    "label_phone": "Téléphone & WhatsApp",
+    "label_email": "Email",
+    "label_hours": "Horaires d'ouverture",
+    "form_title": "Envoyez-nous un message",
+    "form_name_label": "Nom & Prénom",
+    "form_name_placeholder": "Votre nom",
+    "form_phone_label": "Téléphone",
+    "form_phone_placeholder": "Votre numéro",
+    "form_email_label": "Email",
+    "form_email_placeholder": "votre@email.com",
+    "form_msg_label": "Message",
+    "form_msg_placeholder": "Comment pouvons-nous vous aider ?",
+    "form_submit": "Envoyer le Message",
+    "form_footer": "Nous vous répondrons dans les plus brefs délais. Vous pouvez aussi nous contacter via WhatsApp."
+  },
+  "flotte_page": {
+    "hero_tag": "Exploration & Confort",
+    "hero_title": "Une Flotte d'Excellence",
+    "hero_subtitle": "pour tous vos besoins",
+    "hero_desc": "De la citadine agile au SUV premium, découvrez une sélection de véhicules entretenus.",
+    "categories_title": "Nos Catégories de Véhicules",
+    "cat_citadine": {
+      "title": "Citadines Économiques",
+      "desc": "Parfaites pour la ville, faciles à stationner et sobres en carburant.",
+      "models": "Renault Clio 5, Peugeot 208, Opel Corsa"
+    },
+    "cat_suv": {
+      "title": "SUV & Familiales",
+      "desc": "Espace, confort et sécurité pour vos voyages en famille ou entre amis.",
+      "models": "Kia Sportage, Hyundai Tucson"
+    },
+    "cat_berline": {
+      "title": "Berlines Standards",
+      "desc": "Le compromis idéal entre confort et budget. Des véhicules robustes et fiables.",
+      "models": "Dacia Logan"
+    },
+    "experience_title": "Plus qu'une simple location,",
+    "experience_accent": "une expérience premium",
+    "benefits": {
+      "b1": {
+        "title": "Révision Complète",
+        "text": "Chaque véhicule subit un contrôle technique rigoureux après chaque restitution."
+      },
+      "b2": {
+        "title": "Hygiène Irréprochable",
+        "text": "Nettoyage extérieur et désinfection complète de l'habitacle."
+      },
+      "b3": {
+        "title": "Assistance 24h/7j",
+        "text": "En cas d'imprévu, notre équipe est disponible jour et nuit."
+      }
+    },
+    "stats_label": "Satisfaction Client",
+    "faq_title": "FAQ Flotte & Location",
+    "faq_subtitle": "Tout ce qu'il faut savoir sur nos véhicules",
+    "cta_title": "Prêt à prendre la route ?",
+    "cta_desc": "Réservez dès maintenant votre véhicule idéal ou discutez avec notre équipe.",
+    "cta_whatsapp": "CONTACTER SUR WHATSAPP",
+    "cta_online": "RÉSERVER EN LIGNE"
+  },
+  "blog": {
+    "title": "Notre Blog",
+    "tag": "Inspirations & Conseils",
+    "desc": "Découvrez nos articles, conseils et guides pour bien préparer votre voyage.",
+    "read_article": "Lire l'article",
+    "back": "Retour au blog",
+    "tags_label": "Tags",
+    "cta_title": "Besoin d'un véhicule ?",
+    "cta_text": "Découvrez notre flotte de véhicules pour votre séjour à Rabat, Salé et partout au Maroc.",
+    "cta_button": "Réserver maintenant",
+    "cta_contact": "Nous contacter"
+  },
+  "seo": {
+    "home_title": "Location de Voiture Sala Al Jadida | Osalon Car Maroc",
+    "home_desc": "Agence de location de voiture à Sala Al Jadida. Flotte moderne, tarifs compétitifs.",
+    "fleet_title": "Notre Flotte | Osalon Car Rental",
+    "fleet_desc": "Découvrez notre flotte variée de véhicules à Sala Al Jadida.",
+    "contact_title": "Contactez-nous | Osalon Car Rental",
+    "contact_desc": "Contactez Osalon Car Rental pour toute demande de location."
+  }
+}
