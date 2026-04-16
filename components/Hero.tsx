@@ -24,9 +24,13 @@ const Hero: React.FC = () => {
     if (!isMobile) return;
 
     // Lock viewport height to prevent resize on scroll (iOS Safari address bar issue)
-    const setViewportHeight = () => {
-      const vh = window.innerHeight * 0.01;
-      document.documentElement.style.setProperty('--vh', `${vh}px`);
+    let lastWidth = window.innerWidth;
+    const setViewportHeight = (e?: Event) => {
+      if (!e || window.innerWidth !== lastWidth) {
+        lastWidth = window.innerWidth;
+        const vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+      }
     };
 
     setViewportHeight();
