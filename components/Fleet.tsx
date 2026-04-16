@@ -126,12 +126,12 @@ const Fleet: React.FC<FleetProps> = ({ cars, onSelectCar, children }) => {
                     alt={`${car.make} ${car.model} - ${t('car.types.' + car.type)}`}
                     className={`w-full h-full transition-transform duration-500 ease-out ${
                       car.model === '208'
-                        ? 'object-contain scale-[0.8] md:scale-[1.08] group-hover:scale-[0.9] md:group-hover:scale-[1.18]'
+                        ? 'object-contain scale-[0.8] md:scale-[1.08] md:group-hover:scale-[1.18]'
                         : ['Sportage', 'Clio 5'].includes(car.model) 
-                          ? 'object-contain scale-[0.85] md:scale-[1.15] group-hover:scale-[0.95] md:group-hover:scale-[1.25]' 
+                          ? 'object-contain scale-[0.85] md:scale-[1.15] md:group-hover:scale-[1.25]' 
                           : car.model === 'Logan'
-                            ? 'object-contain scale-[0.95] md:object-cover md:scale-100 group-hover:scale-[1.05] md:group-hover:scale-105'
-                            : 'object-contain scale-[0.8] md:object-cover md:scale-100 group-hover:scale-[0.9] md:group-hover:scale-105'
+                            ? 'object-contain scale-[0.95] md:object-cover md:scale-100 md:group-hover:scale-105'
+                            : 'object-contain scale-[0.8] md:object-cover md:scale-100 md:group-hover:scale-105'
                     }`}
                     loading="lazy"
                     decoding="async"

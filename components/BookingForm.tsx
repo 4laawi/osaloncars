@@ -316,7 +316,7 @@ const BookingForm: React.FC<BookingFormProps> = ({ cars, selectedCarId }) => {
                                 <img 
                                     src={selectedCar.image} 
                                     alt={`${selectedCar.make} ${selectedCar.model}`} 
-                                    className={`w-full h-full object-center transform group-hover:scale-110 transition-all duration-700 ease-out ${
+                                    className={`w-full h-full object-center transform md:group-hover:scale-110 transition-all duration-700 ease-out ${
                                         selectedCar.model === 'Logan' 
                                           ? 'object-contain scale-[1.05] md:object-cover md:scale-100' 
                                           : 'object-cover'

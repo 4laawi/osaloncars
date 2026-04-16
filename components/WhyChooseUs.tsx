@@ -71,7 +71,7 @@ const WhyChooseUs: React.FC = () => {
                 <div className="hidden md:block absolute -right-10 -top-10 w-32 h-32 bg-gold-400/20 rounded-full blur-3xl transition-opacity duration-500 opacity-0 group-hover:opacity-100 pointer-events-none"></div>
 
                 <div className={`relative z-10 flex flex-col items-center ${isRTL ? 'md:items-end' : 'md:items-start'}`}>
-                  <div className="w-10 h-10 md:w-14 md:h-14 rounded-xl md:rounded-2xl bg-white border border-gold-100 shadow-sm flex items-center justify-center text-primary-500 mb-3 md:mb-6 group-hover:scale-110 group-hover:bg-gold-500 group-hover:text-white group-hover:border-gold-500 transition-all duration-300">
+                  <div className="w-10 h-10 md:w-14 md:h-14 rounded-xl md:rounded-2xl bg-white border border-gold-100 shadow-sm flex items-center justify-center text-primary-500 mb-3 md:mb-6 md:group-hover:scale-110 group-hover:bg-gold-500 group-hover:text-white group-hover:border-gold-500 transition-all duration-300">
                       {React.cloneElement(feature.icon as React.ReactElement<any>, { size: 20, className: "md:w-7 md:h-7" })}
                   </div>
                   

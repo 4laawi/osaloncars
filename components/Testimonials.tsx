@@ -12,7 +12,7 @@ const Testimonials: React.FC = () => {
       {/* Sticky Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <div 
-          className="absolute inset-0 bg-fixed bg-cover bg-center opacity-40"
+          className="absolute inset-0 md:bg-fixed bg-cover bg-center opacity-40"
           style={{ backgroundImage: 'url("/bg-image.png")' }}
         ></div>
         <div className="absolute inset-0 bg-luxury-900/70"></div>
