@@ -174,7 +174,7 @@ const Hero: React.FC = () => {
       {/* Content */}
       <header 
         ref={contentRef}
-        className={`relative z-10 flex flex-col items-start ${isRTL ? 'text-right' : 'text-left'} px-6 md:px-12 lg:px-20 w-full mt-16 md:mt-0 opacity-100`}
+        className={`relative z-10 flex flex-col items-start ${isRTL ? 'text-right' : 'text-left'} px-6 md:px-12 lg:px-20 w-full mt-8 md:mt-0 opacity-100`}
         style={{
           willChange: isMobile ? 'auto' : 'opacity',
           transform: isMobile ? 'none' : 'translateZ(0)',
@@ -182,14 +182,14 @@ const Hero: React.FC = () => {
         }}
       >
         <div className="flex items-center gap-4 mb-4 md:mb-6 animate-fade-in">
-          <div className="w-16 h-[1px] bg-gold-500/80"></div>
-          <p className="text-gold-400 font-medium tracking-[0.4em] text-[10px] md:text-sm uppercase">
+          <div className="w-12 md:w-16 h-[1px] bg-gold-500/80"></div>
+          <p className="text-gold-400 font-medium tracking-[0.3em] md:tracking-[0.4em] text-[9px] md:text-sm uppercase">
             {t('hero.welcome')}
           </p>
         </div>
 
         <h1 
-          className={`text-5xl md:text-7xl lg:text-[100px] text-white font-serif font-bold mb-6 md:mb-8 leading-[1.05] tracking-tight ${isRTL ? 'font-arabic' : ''}`}
+          className={`text-3xl sm:text-4xl md:text-7xl lg:text-[100px] text-white font-serif font-bold mb-4 md:mb-8 leading-[1.05] tracking-tight ${isRTL ? 'font-arabic' : ''}`}
           style={{ textShadow: '2px 2px 6px rgba(0,0,0,0.4)' }}
         >
           {isRTL ? (
@@ -206,24 +206,24 @@ const Hero: React.FC = () => {
         </h1>
 
         <p 
-          className="text-gray-100 text-lg md:text-2xl mb-10 md:mb-12 max-w-2xl font-light leading-relaxed"
+          className="text-gray-100 text-sm sm:text-base md:text-2xl mb-6 md:mb-12 max-w-2xl font-light leading-relaxed"
           style={{ textShadow: '1px 1px 3px rgba(0,0,0,0.3)' }}
         >
           {t('hero.subtitle')}
         </p>
         
-        <div className="flex flex-col sm:flex-row items-start justify-start gap-6 w-full">
+        <div className="flex flex-col sm:flex-row items-start justify-start gap-4 md:gap-6 w-full">
           <a 
             href="#booking"
             onClick={(e) => scrollToSection(e, 'booking')}
-            className="w-full sm:w-auto bg-gold-600 hover:bg-gold-700 text-white px-10 py-4 rounded-none text-lg font-semibold transition-all shadow-[0_10px_30px_-10px_rgba(184,134,11,0.5)] hover:shadow-[0_15px_35px_-5px_rgba(184,134,11,0.6)] hover:-translate-y-1 cursor-pointer text-center uppercase tracking-wider"
+            className="w-full sm:w-auto bg-gold-600 hover:bg-gold-700 text-white px-6 md:px-10 py-3.5 md:py-4 rounded-none text-base md:text-lg font-semibold transition-all shadow-[0_10px_30px_-10px_rgba(184,134,11,0.5)] hover:shadow-[0_15px_35px_-5px_rgba(184,134,11,0.6)] hover:-translate-y-1 cursor-pointer text-center uppercase tracking-wider"
           >
             {t('hero.cta_primary')}
           </a>
           <a 
             href="#fleet"
             onClick={(e) => scrollToSection(e, 'fleet')}
-            className="w-full sm:w-auto bg-transparent border border-white/40 text-white hover:border-white hover:bg-white/10 px-10 py-4 rounded-none text-lg font-medium transition-all backdrop-blur-sm min-w-[200px] cursor-pointer text-center uppercase tracking-wider hover:-translate-y-1"
+            className="w-full sm:w-auto bg-transparent border border-white/40 text-white hover:border-white hover:bg-white/10 px-6 md:px-10 py-3.5 md:py-4 rounded-none text-base md:text-lg font-medium transition-all backdrop-blur-sm min-w-[180px] md:min-w-[200px] cursor-pointer text-center uppercase tracking-wider hover:-translate-y-1"
           >
             {t('hero.cta_secondary')}
           </a>

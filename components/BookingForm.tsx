@@ -21,13 +21,15 @@ const DELIVERY_CITIES = [
 const BookingForm: React.FC<BookingFormProps> = ({ cars, selectedCarId }) => {
   const { t, language, isRTL } = useLanguage();
 
-  // Helper to get date string YYYY-MM-DD
-  const getToday = () => new Date().toISOString().split('T')[0];
+  // Helper to get date string YYYY-MM-DD in local time
+  const getToday = () => {
+    const d = new Date();
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+  };
   const getTomorrow = () => {
-    const today = new Date();
-    const tomorrow = new Date(today);
-    tomorrow.setDate(tomorrow.getDate() + 1);
-    return tomorrow.toISOString().split('T')[0];
+    const d = new Date();
+    d.setDate(d.getDate() + 1);
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
   };
 
   const [formData, setFormData] = useState({
@@ -55,8 +57,15 @@ const BookingForm: React.FC<BookingFormProps> = ({ cars, selectedCarId }) => {
 
   // Recalculate days and totals
   useEffect(() => {
-    const start = new Date(formData.pickupDate);
-    const end = new Date(formData.dropoffDate);
+    // Parse "YYYY-MM-DD" safely as local dates
+    const parseLocal = (dateStr: string) => {
+        if (!dateStr) return new Date(NaN);
+        const [y, m, d] = dateStr.split('-').map(Number);
+        return new Date(y, m - 1, d);
+    };
+
+    const start = parseLocal(formData.pickupDate);
+    const end = parseLocal(formData.dropoffDate);
     const selectedCar = cars.find(c => c.id === formData.carId);
 
     // Validate dates
@@ -69,10 +78,7 @@ const BookingForm: React.FC<BookingFormProps> = ({ cars, selectedCarId }) => {
     today.setHours(0,0,0,0);
     
     // Check if start date is in past (allow today)
-    const startCheck = new Date(start);
-    startCheck.setHours(0,0,0,0); // compare dates only
-    
-    if (startCheck < today) {
+    if (start < today) {
         setErrorMessage(t('booking.error_past_date'));
         setIsValid(false);
         return;
@@ -91,7 +97,7 @@ const BookingForm: React.FC<BookingFormProps> = ({ cars, selectedCarId }) => {
 
     // Calculate diff
     const diffTime = Math.abs(end.getTime() - start.getTime());
-    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
+    const diffDays = Math.round(diffTime / (1000 * 60 * 60 * 24)); 
     setDays(diffDays);
 
     if (selectedCar) {
@@ -116,7 +122,8 @@ const BookingForm: React.FC<BookingFormProps> = ({ cars, selectedCarId }) => {
 
   const formatDateDisplay = (dateStr: string) => {
     if (!dateStr) return '-';
-    const date = new Date(dateStr);
+    const [y, m, d] = dateStr.split('-').map(Number);
+    const date = new Date(y, m - 1, d);
     const locale = language === 'ar' ? 'ar-MA' : language === 'en' ? 'en-US' : 'fr-FR';
     return date.toLocaleDateString(locale, { day: '2-digit', month: '2-digit', year: 'numeric' });
   };
@@ -244,6 +251,7 @@ const BookingForm: React.FC<BookingFormProps> = ({ cars, selectedCarId }) => {
                         type="date"
                         name="pickupDate"
                         value={formData.pickupDate}
+                        min={getToday()}
                         onChange={handleChange}
                         className={inputStyle}
                       />
@@ -257,6 +265,7 @@ const BookingForm: React.FC<BookingFormProps> = ({ cars, selectedCarId }) => {
                         type="date"
                         name="dropoffDate"
                         value={formData.dropoffDate}
+                        min={formData.pickupDate || getToday()}
                         onChange={handleChange}
                         className={inputStyle}
                       />
@@ -274,7 +283,7 @@ const BookingForm: React.FC<BookingFormProps> = ({ cars, selectedCarId }) => {
                   <button
                     type="submit"
                     disabled={!isValid || !formData.carId || !formData.name || !formData.delivery}
-                    className={`w-full font-bold py-3.5 md:py-4 rounded-none shadow-lg transition-all flex items-center justify-center gap-2 mt-2 text-white text-sm md:text-base
+                    className={`w-full font-bold py-4 rounded-none shadow-lg transition-all flex items-center justify-center gap-2 mt-2 text-white text-base
                         ${(!isValid || !formData.carId || !formData.name || !formData.delivery) 
                             ? 'bg-gray-400 cursor-not-allowed' 
                             : 'bg-gold-600 hover:bg-gold-700 hover:shadow-gold-600/30 hover:-translate-y-1'}`}

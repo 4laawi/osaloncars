@@ -295,7 +295,7 @@ const Fleet: React.FC<FleetProps> = ({ cars, onSelectCar, children }) => {
                     <button 
                       onClick={() => car.isAvailable && onSelectCar(car.id)}
                       disabled={!car.isAvailable}
-                      className={`w-full md:flex-grow md:max-w-[200px] h-[48px] md:h-[56px] rounded-none text-white font-bold text-sm tracking-wide shadow-lg flex items-center justify-center gap-3 
+                      className={`w-full md:flex-grow md:max-w-[200px] h-[52px] md:h-[56px] rounded-none text-white font-bold text-base tracking-wide shadow-lg flex items-center justify-center gap-3 
                         ${car.isAvailable ? 'hover:shadow-xl cursor-pointer' : 'bg-gray-400 cursor-not-allowed grayscale'}`}
                       style={{ 
                         background: car.isAvailable ? `linear-gradient(135deg, ${buttonColor}, #926605)` : undefined,
