@@ -194,7 +194,7 @@ const Hero: React.FC = () => {
         </div>
 
         <h1 
-          className={`text-3xl sm:text-4xl md:text-7xl lg:text-[100px] text-white font-serif font-bold mb-4 md:mb-8 leading-[1.05] tracking-tight ${isRTL ? 'font-arabic' : ''}`}
+          className={`text-2xl sm:text-3xl md:text-5xl lg:text-[70px] text-white font-serif font-bold mb-4 md:mb-8 leading-[1.05] tracking-tight ${isRTL ? 'font-arabic' : ''}`}
           style={{ textShadow: '2px 2px 6px rgba(0,0,0,0.4)' }}
         >
           {isRTL ? (
