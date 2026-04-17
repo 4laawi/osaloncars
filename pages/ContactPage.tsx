@@ -14,7 +14,7 @@ const ContactPage: React.FC = () => {
       <SEO 
         title={t('seo.contact_title')}
         description={t('seo.contact_desc')}
-        canonical={`https://osaloncars.ma/${language}/contact`}
+        canonical={`https://osalon-cars.ma/${language}/contact`}
       />
       
       <Navbar />
@@ -89,8 +89,8 @@ const ContactPage: React.FC = () => {
                       </div>
                       <div className={isRTL ? 'text-right' : 'text-left'}>
                         <h4 className={`font-bold text-lg mb-1 ${isRTL ? 'font-arabic' : ''}`}>{t('contact_page.label_email')}</h4>
-                        <a href="mailto:contact@osaloncars.ma" className="text-gray-600 hover:text-gold-600 transition-colors">
-                          contact@osaloncars.ma
+                        <a href="mailto:contact@osalon-cars.ma" className="text-gray-600 hover:text-gold-600 transition-colors">
+                          contact@osalon-cars.ma
                         </a>
                       </div>
                     </div>

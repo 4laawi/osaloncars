@@ -73,7 +73,7 @@ const Footer: React.FC = () => {
               </li>
               <li className={`flex items-center gap-3 justify-center ${isRTL ? 'md:justify-start flex-row-reverse' : 'md:justify-start'}`}>
                 <Mail size={18} className="text-brand-yellow shrink-0" />
-                <span className={isRTL ? 'text-right' : ''}>contact@osaloncars.ma</span>
+                <span className={isRTL ? 'text-right' : ''}>contact@osalon-cars.ma</span>
               </li>
             </ul>
           </div>

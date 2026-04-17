@@ -49,7 +49,7 @@ const FlottePage: React.FC = () => {
       <SEO 
         title={t('seo.fleet_title')}
         description={t('seo.fleet_desc')}
-        canonical={`https://osaloncars.ma/${language}/flotte`}
+        canonical={`https://osalon-cars.ma/${language}/flotte`}
       />
       
       <Navbar />

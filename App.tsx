@@ -74,7 +74,7 @@ const HomePage: React.FC = () => {
       <SEO 
         title={t('seo.home_title')}
         description={t('seo.home_desc')}
-        canonical={`https://osaloncars.ma/${language}`}
+        canonical={`https://osalon-cars.ma/${language}`}
       />
       <Navbar />
       <main>

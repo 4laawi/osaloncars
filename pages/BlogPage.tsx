@@ -22,7 +22,7 @@ const BlogPage: React.FC = () => {
       <SEO 
         title={t('seo.blog_title')}
         description={t('seo.blog_desc')}
-        canonical={`https://osaloncars.ma/${language}/blog`}
+        canonical={`https://osalon-cars.ma/${language}/blog`}
       />
       
       <Navbar />
