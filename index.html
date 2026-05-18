@@ -11,7 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Location de Voiture Sala Al Jadida | Agence O'Salon Car Maroc</title>
     <meta name="title" content="Location de Voiture Sala Al Jadida | Agence O'Salon Car Maroc" />
-    <meta name="description" content="Agence de location de voiture à Sala Al Jadida. Location de voiture Sala Al Jadida, Rabat et aéroports. Flotte moderne, tarifs compétitifs. Réservez votre location de voiture au Maroc en ligne." />
+    <meta name="description" content="Agence de location de voiture à Sala Al Jadida. Location de voiture Sala Al Jadida, Rabat et aéroport Rabat-Salé. Flotte moderne, tarifs compétitifs. Réservez en ligne." />
     <meta name="keywords" content="location de voiture sala al jadida, location de voiture, agence de location de voiture, location de voiture maroc, location de voiture aeroport rabat-salé, location voiture sala al jadida, location auto sala al jadida, location de voiture pas cher sala al jadida, comparateur location de voiture, location voiture maroc, location de voiture au maroc" />
     <meta name="author" content="O'Salon Car" />
     <meta name="robots" content="index, follow" />
@@ -22,8 +22,9 @@
     <meta name="geo.position" content="34.0333;-6.8167" />
     <meta name="ICBM" content="34.0333, -6.8167" />
     
-    <!-- Canonical URL -->
+    <!-- Canonical URL (static fallback — SEO.tsx overrides dynamically per page) -->
     <link rel="canonical" href="https://osalon-cars.ma/fr" />
+    <!-- Hreflang tags are managed dynamically by SEO.tsx component to avoid duplication -->
     <link rel="alternate" hreflang="fr" href="https://osalon-cars.ma/fr" />
     <link rel="alternate" hreflang="en" href="https://osalon-cars.ma/en" />
     <link rel="alternate" hreflang="ar" href="https://osalon-cars.ma/ar" />
@@ -34,20 +35,22 @@
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://osalon-cars.ma/" />
+    <meta property="og:url" content="https://osalon-cars.ma/fr" />
     <meta property="og:title" content="Location de Voiture Sala Al Jadida | Agence O'Salon Car Maroc" />
-    <meta property="og:description" content="Agence de location de voiture à Sala Al Jadida. Location de voiture Sala Al Jadida, Rabat et aéroports. Flotte moderne, tarifs compétitifs. Réservez votre location de voiture au Maroc." />
+    <meta property="og:description" content="Agence de location de voiture à Sala Al Jadida. Location de voiture Sala Al Jadida, Rabat et aéroport Rabat-Salé. Flotte moderne, tarifs compétitifs." />
     <meta property="og:image" content="https://osalon-cars.ma/logo-osalon.pdf.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:locale" content="fr_FR" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:locale:alternate" content="ar_MA" />
     <meta property="og:site_name" content="O'Salon Car" />
     
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="https://osalon-cars.ma/" />
+    <meta name="twitter:url" content="https://osalon-cars.ma/fr" />
     <meta name="twitter:title" content="Location de Voiture Sala Al Jadida | Agence O'Salon Car Maroc" />
-    <meta name="twitter:description" content="Agence de location de voiture à Sala Al Jadida. Location de voiture Sala Al Jadida, Rabat et aéroports. Flotte moderne, tarifs compétitifs." />
+    <meta name="twitter:description" content="Agence de location de voiture à Sala Al Jadida. Location de voiture Sala Al Jadida, Rabat et aéroport Rabat-Salé. Flotte moderne, tarifs compétitifs." />
     <meta name="twitter:image" content="https://osalon-cars.ma/logo-osalon.pdf.png" />
     
     <!-- Favicon -->
@@ -63,10 +66,10 @@
       "alternateName": "Agence de Location de Voiture Sala Al Jadida",
       "image": "https://osalon-cars.ma/logo-osalon.pdf.png",
       "@id": "https://osalon-cars.ma/",
-      "url": "https://osalon-cars.ma/",
-      "telephone": "+212616925572",
+      "url": "https://osalon-cars.ma/fr",
+      "telephone": "+212661492612",
       "priceRange": "$$",
-      "description": "Agence de location de voiture à Sala Al Jadida, Maroc. Location de voiture Sala Al Jadida aéroport et centre-ville. Flotte moderne de véhicules récents.",
+      "description": "Agence de location de voiture à Sala Al Jadida, Maroc. Location de voiture Sala Al Jadida, aéroport Rabat-Salé et centre-ville. Flotte moderne de véhicules récents.",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Sala Al Jadida",
@@ -78,10 +81,12 @@
         "latitude": 34.0333,
         "longitude": -6.8167
       },
-      "areaServed": {
-        "@type": "City",
-        "name": "Sala Al Jadida"
-      },
+      "areaServed": [
+        {"@type": "City", "name": "Sala Al Jadida"},
+        {"@type": "City", "name": "Rabat"},
+        {"@type": "City", "name": "Salé"},
+        {"@type": "Airport", "name": "Aéroport Rabat-Salé", "iataCode": "RBA"}
+      ],
       "serviceType": "Location de voiture",
       "openingHoursSpecification": {
         "@type": "OpeningHoursSpecification",
@@ -94,11 +99,12 @@
           "Saturday",
           "Sunday"
         ],
-        "opens": "00:00",
-        "closes": "23:59"
+        "opens": "08:00",
+        "closes": "22:00"
       },
       "sameAs": [
-        "https://www.instagram.com/osalon_cars/"
+        "https://www.instagram.com/osalon_cars/",
+        "https://www.google.com/maps/place/?q=place_id:ChIJ1YFiOS1Bpw0RvPABMr5bsPQ"
       ]
     }
     </script>
@@ -108,17 +114,24 @@
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "O'Salon Car",
+      "@id": "https://osalon-cars.ma/#organization",
       "url": "https://osalon-cars.ma/",
-      "logo": "https://osalon-cars.ma/logo-osalon.pdf.png",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://osalon-cars.ma/logo-osalon.pdf.png",
+        "width": 400,
+        "height": 400
+      },
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+212-616-925-572",
+        "telephone": "+212661492612",
         "contactType": "customer service",
         "areaServed": "MA",
         "availableLanguage": ["French", "Arabic"]
       },
       "sameAs": [
-        "https://www.instagram.com/osalon_cars/"
+        "https://www.instagram.com/osalon_cars/",
+        "https://www.google.com/maps/place/?q=place_id:ChIJ1YFiOS1Bpw0RvPABMr5bsPQ"
       ]
     }
     </script>
@@ -132,7 +145,7 @@
       "url": "https://osalon-cars.ma/",
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://osalon-cars.ma/?search={search_term_string}",
+        "target": "https://osalon-cars.ma/fr?search={search_term_string}",
         "query-input": "required name=search_term_string"
       }
     }
@@ -147,19 +160,19 @@
           "@type": "ListItem",
           "position": 1,
           "name": "Accueil",
-          "item": "https://osalon-cars.ma/"
+          "item": "https://osalon-cars.ma/fr"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Location de Voiture Sala Al Jadida",
-          "item": "https://osalon-cars.ma/#fleet"
+          "item": "https://osalon-cars.ma/fr#fleet"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Réservation",
-          "item": "https://osalon-cars.ma/#booking"
+          "item": "https://osalon-cars.ma/fr#booking"
         }
       ]
     }
@@ -175,7 +188,7 @@
           "name": "Quels sont les documents nécessaires pour louer une voiture à Sala Al Jadida ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Carte d'identité ou passeport, permis de conduire valide"
+            "text": "Carte d'identité ou passeport, permis de conduire valide."
           }
         },
         {
@@ -188,6 +201,22 @@
         },
         {
           "@type": "Question",
+          "name": "Quelle ancienneté du permis est exigée pour louer une voiture ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Un permis valide depuis au moins 2 ans est obligatoire."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Est-ce que je dois payer une caution pour louer une voiture ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, une caution peut être exigée selon le modèle choisi. Elle est restituée après le retour du véhicule."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Est-ce que vous offrez la livraison à l'aéroport Rabat-Salé ?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -196,21 +225,52 @@
         },
         {
           "@type": "Question",
+          "name": "Le kilométrage est-il limité avec votre location de voiture ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nous offrons kilométrage illimité sur toutes nos locations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quels modes de paiement acceptez-vous ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nous acceptons les espèces et le virement bancaire."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Puis-je ajouter un deuxième conducteur à la location ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, un conducteur additionnel est possible avec présentation de son permis de conduire."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Que faire en cas de panne ou d'accident avec votre véhicule ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Contactez-nous immédiatement. Assistance 24/7 incluse avec chaque location."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Comment réserver une location de voiture à Sala Al Jadida ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Vous pouvez réserver votre location de voiture à Sala Al Jadida en ligne via notre site web ou nous contacter directement par téléphone ou WhatsApp."
+            "text": "Vous pouvez réserver votre location de voiture à Sala Al Jadida en ligne via notre site web ou nous contacter directement par téléphone ou WhatsApp au +212661492612."
           }
         }
       ]
     }
     </script>
 
-    <!-- Performance / Styles / Scripts (UNCHANGED) -->
+    <!-- Performance / Styles / Scripts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://cdn.tailwindcss.com">
-    <link rel="preconnect" href="https://picsum.photos">
     
 
     

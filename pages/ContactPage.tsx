@@ -38,7 +38,7 @@ const ContactPage: React.FC = () => {
                 {t('contact_page.hero_tag')}
               </span>
               <h1 className={`text-4xl md:text-6xl font-serif font-bold text-white mb-6 ${isRTL ? 'font-arabic' : ''}`}>
-                {t('contact_page.hero_title')}
+                {t('contact_page.hero_title')} <span className="text-gold-400">O'Salon Car</span>
               </h1>
               <p className={`text-gray-300 text-lg md:text-xl max-w-2xl mx-auto font-light ${isRTL ? 'font-arabic font-medium' : ''}`}>
                 {t('contact_page.hero_desc')}
@@ -78,7 +78,7 @@ const ContactPage: React.FC = () => {
                       <div className={isRTL ? 'text-right' : 'text-left'}>
                         <h4 className={`font-bold text-lg mb-1 ${isRTL ? 'font-arabic' : ''}`}>{t('contact_page.label_phone')}</h4>
                         <a href="https://wa.me/212661492612" dir="ltr" className="text-gold-600 hover:text-gold-700 font-medium">
-                          +212 661-492612
+                          +212 661-492-612
                         </a>
                       </div>
                     </div>
@@ -165,6 +165,39 @@ const ContactPage: React.FC = () => {
               </div>
 
             </div>
+          </div>
+        </section>
+
+        {/* Google Maps Section */}
+        <section className="bg-gray-50 py-16">
+          <div className="container mx-auto px-4 max-w-6xl">
+            <ScrollReveal animation="fade-up">
+              <h2 className={`text-2xl md:text-3xl font-serif font-bold text-center mb-8 ${isRTL ? 'font-arabic' : ''}`}>
+                {language === 'ar' ? 'موقعنا' : language === 'en' ? 'Find Us' : 'Notre Localisation'}
+              </h2>
+              <div className="w-full rounded-2xl overflow-hidden shadow-xl border border-gray-200" style={{ height: '420px' }}>
+                <iframe
+                  title="O'Salon Car - Sala Al Jadida"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.23!2d-6.8167!3d34.0333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf4b05bbf3201f0bc!2sO'Salon+Car!5e0!3m2!1sfr!2sma!4v1716079200000!5m2!1sfr!2sma&q=place_id:ChIJ1YFiOS1Bpw0RvPABMr5bsPQ"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
+              </div>
+              <p className={`text-center text-gray-500 mt-4 text-sm ${isRTL ? 'font-arabic' : ''}`}>
+                <a
+                  href="https://www.google.com/maps/place/?q=place_id:ChIJ1YFiOS1Bpw0RvPABMr5bsPQ"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gold-600 hover:text-gold-700 font-medium underline"
+                >
+                  {language === 'ar' ? 'عرض على خرائط Google' : language === 'en' ? 'View on Google Maps' : 'Voir sur Google Maps'}
+                </a>
+              </p>
+            </ScrollReveal>
           </div>
         </section>
       </main>

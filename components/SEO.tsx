@@ -93,6 +93,15 @@ const SEO: React.FC<SEOProps> = ({ title, description, keywords, canonical }) =>
     const ogUrl = document.querySelector('meta[property="og:url"]');
     if (ogUrl && canonical) ogUrl.setAttribute('content', canonical);
 
+    const twitterUrl = document.querySelector('meta[name="twitter:url"]');
+    if (twitterUrl && canonical) twitterUrl.setAttribute('content', canonical);
+
+    const twitterTitle = document.querySelector('meta[name="twitter:title"]');
+    if (twitterTitle) twitterTitle.setAttribute('content', title);
+
+    const twitterDesc = document.querySelector('meta[name="twitter:description"]');
+    if (twitterDesc) twitterDesc.setAttribute('content', description);
+
   }, [title, description, keywords, canonical]);
 
   return null;

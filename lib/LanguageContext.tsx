@@ -12,24 +12,31 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 
 export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [language, setLanguageState] = useState<Language>(() => {
-    const saved = localStorage.getItem('language');
-    return (saved as Language) || 'fr';
+    if (typeof window !== 'undefined') {
+      const saved = localStorage.getItem('language');
+      return (saved as Language) || 'fr';
+    }
+    return 'fr';
   });
 
   const setLanguage = (lang: Language) => {
     setLanguageState(lang);
-    localStorage.setItem('language', lang);
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('language', lang);
+    }
   };
 
   const isRTL = language === 'ar';
 
   useEffect(() => {
-    document.documentElement.dir = isRTL ? 'rtl' : 'ltr';
-    document.documentElement.lang = language;
-    if (isRTL) {
-      document.body.classList.add('font-arabic');
-    } else {
-      document.body.classList.remove('font-arabic');
+    if (typeof document !== 'undefined') {
+      document.documentElement.dir = isRTL ? 'rtl' : 'ltr';
+      document.documentElement.lang = language;
+      if (isRTL) {
+        document.body.classList.add('font-arabic');
+      } else {
+        document.body.classList.remove('font-arabic');
+      }
     }
   }, [language, isRTL]);
 

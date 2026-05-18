@@ -152,32 +152,38 @@ const HomePage: React.FC = () => {
   );
 };
 
+export const AppRoutes: React.FC = () => {
+  return (
+    <LanguageProvider>
+      <ScrollToTop />
+      <Routes>
+        {/* Support for /fr, /en, /ar prefixes */}
+        <Route path="/:lang/*" element={
+          <>
+            <LanguageSync />
+            <Routes>
+              <Route index element={<HomePage />} />
+              <Route path="flotte" element={<FlottePage />} />
+              <Route path="contact" element={<ContactPage />} />
+              <Route path="blog" element={<BlogPage />} />
+              <Route path="blog/:slug" element={<BlogPostPage />} />
+              <Route path="*" element={<Navigate to="/" replace />} />
+            </Routes>
+          </>
+        } />
+        
+        {/* Default redirect to French */}
+        <Route path="/" element={<Navigate to="/fr" replace />} />
+        <Route path="*" element={<Navigate to="/fr" replace />} />
+      </Routes>
+    </LanguageProvider>
+  );
+};
+
 const App: React.FC = () => {
   return (
     <BrowserRouter>
-      <LanguageProvider>
-        <ScrollToTop />
-        <Routes>
-          {/* Support for /fr, /en, /ar prefixes */}
-          <Route path="/:lang/*" element={
-            <>
-              <LanguageSync />
-              <Routes>
-                <Route index element={<HomePage />} />
-                <Route path="flotte" element={<FlottePage />} />
-                <Route path="contact" element={<ContactPage />} />
-                <Route path="blog" element={<BlogPage />} />
-                <Route path="blog/:slug" element={<BlogPostPage />} />
-                <Route path="*" element={<Navigate to="/" replace />} />
-              </Routes>
-            </>
-          } />
-          
-          {/* Default redirect to French */}
-          <Route path="/" element={<Navigate to="/fr" replace />} />
-          <Route path="*" element={<Navigate to="/fr" replace />} />
-        </Routes>
-      </LanguageProvider>
+      <AppRoutes />
     </BrowserRouter>
   );
 };
