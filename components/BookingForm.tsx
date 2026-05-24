@@ -186,10 +186,11 @@ const BookingForm: React.FC<BookingFormProps> = ({ cars, selectedCarId }) => {
                   
                   {/* Name */}
                   <div className={isRTL ? 'text-right' : 'text-left'}>
-                    <label className={labelStyle}>
+                    <label htmlFor="name" className={labelStyle}>
                       <User size={16} className="text-primary-500 md:w-[18px] md:h-[18px]"/> {t('booking.form_name')}
                     </label>
                     <input
+                      id="name"
                       required
                       type="text"
                       name="name"
@@ -202,10 +203,11 @@ const BookingForm: React.FC<BookingFormProps> = ({ cars, selectedCarId }) => {
 
                   {/* Car Selection */}
                   <div className={isRTL ? 'text-right' : 'text-left'}>
-                    <label className={labelStyle}>
+                    <label htmlFor="carId" className={labelStyle}>
                       <CarIcon size={16} className="text-primary-500 md:w-[18px] md:h-[18px]"/> {t('booking.form_car')}
                     </label>
                     <select
+                      id="carId"
                       name="carId"
                       value={formData.carId}
                       onChange={handleChange}
@@ -223,10 +225,11 @@ const BookingForm: React.FC<BookingFormProps> = ({ cars, selectedCarId }) => {
 
                   {/* Delivery */}
                   <div className={isRTL ? 'text-right' : 'text-left'}>
-                    <label className={labelStyle}>
+                    <label htmlFor="delivery" className={labelStyle}>
                       <MapPin size={16} className="text-primary-500 md:w-[18px] md:h-[18px]"/> {t('booking.form_delivery')}
                     </label>
                     <select
+                      id="delivery"
                       name="delivery"
                       value={formData.delivery}
                       onChange={handleChange}
@@ -243,10 +246,11 @@ const BookingForm: React.FC<BookingFormProps> = ({ cars, selectedCarId }) => {
                   {/* Dates - FORCED 2 COLUMNS ON MOBILE */}
                   <div className="grid grid-cols-2 gap-3 md:gap-6">
                     <div className={isRTL ? 'text-right' : 'text-left'}>
-                      <label className={labelStyle}>
+                      <label htmlFor="pickupDate" className={labelStyle}>
                         <Calendar size={16} className="text-primary-500 md:w-[18px] md:h-[18px]"/> {t('booking.form_pickup')}
                       </label>
                       <input
+                        id="pickupDate"
                         required
                         type="date"
                         name="pickupDate"
@@ -257,10 +261,11 @@ const BookingForm: React.FC<BookingFormProps> = ({ cars, selectedCarId }) => {
                       />
                     </div>
                     <div className={isRTL ? 'text-right' : 'text-left'}>
-                      <label className={labelStyle}>
+                      <label htmlFor="dropoffDate" className={labelStyle}>
                         <Calendar size={16} className="text-primary-500 md:w-[18px] md:h-[18px]"/> {t('booking.form_return')}
                       </label>
                       <input
+                        id="dropoffDate"
                         required
                         type="date"
                         name="dropoffDate"
@@ -283,7 +288,7 @@ const BookingForm: React.FC<BookingFormProps> = ({ cars, selectedCarId }) => {
                   <button
                     type="submit"
                     disabled={!isValid || !formData.carId || !formData.name || !formData.delivery}
-                    className={`w-full font-bold py-4 rounded-none shadow-lg transition-all flex items-center justify-center gap-2 mt-2 text-white text-base
+                    className={`w-full font-bold py-4 rounded-none shadow-lg transition-all flex items-center justify-center gap-2 mt-2 text-gray-900 text-base
                         ${(!isValid || !formData.carId || !formData.name || !formData.delivery) 
                             ? 'bg-gray-400 cursor-not-allowed' 
                             : 'bg-gold-600 hover:bg-gold-700 hover:shadow-gold-600/30 hover:-translate-y-1'}`}

@@ -115,7 +115,7 @@ const HomePage: React.FC = () => {
         {/* Final CTA */}
         <section className="pt-16 pb-16 md:pt-24 md:pb-24 relative overflow-hidden">
           <div className="absolute inset-0 bg-primary-500"></div>
-          <div className="absolute top-0 left-0 w-full h-full opacity-10 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]"></div>
+          <div className="absolute top-0 left-0 w-full h-full opacity-10 bg-[url('/carbon-fibre.png')]"></div>
           
           <div className="container mx-auto px-4 relative z-10 text-center text-white">
              <ScrollReveal animation="scale-up">

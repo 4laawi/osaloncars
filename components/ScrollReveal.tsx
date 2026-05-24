@@ -20,9 +20,19 @@ const ScrollReveal: React.FC<ScrollRevealProps> = ({
   width = 'w-full',
 }) => {
   const [isVisible, setIsVisible] = useState(false);
+  const [isMobileOrReduced, setIsMobileOrReduced] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const isMobile = window.innerWidth < 768;
+
+    if (prefersReducedMotion || isMobile) {
+      setIsMobileOrReduced(true);
+      setIsVisible(true);
+      return;
+    }
+
     const element = ref.current;
     if (!element) return;
 
@@ -93,9 +103,9 @@ const ScrollReveal: React.FC<ScrollRevealProps> = ({
         isVisible ? getVisibleStyle() : getInitialStyle()
       }`}
       style={{
-        transitionDuration: `${duration}ms`,
-        transitionDelay: `${delay}ms`,
-        willChange: isVisible ? 'auto' : 'transform, opacity',
+        transitionDuration: isMobileOrReduced ? '0ms' : `${duration}ms`,
+        transitionDelay: isMobileOrReduced ? '0ms' : `${delay}ms`,
+        willChange: isVisible || isMobileOrReduced ? 'auto' : 'transform, opacity',
       }}
     >
       {children}

@@ -241,7 +241,7 @@ const Hero: React.FC = () => {
           <a 
             href="#booking"
             onClick={(e) => scrollToSection(e, 'booking')}
-            className="w-full sm:w-auto bg-gold-600 hover:bg-gold-700 text-white px-6 md:px-10 py-3.5 md:py-4 rounded-none text-base md:text-lg font-semibold transition-all shadow-[0_10px_30px_-10px_rgba(184,134,11,0.5)] hover:shadow-[0_15px_35px_-5px_rgba(184,134,11,0.6)] hover:-translate-y-1 cursor-pointer text-center uppercase tracking-wider"
+            className="w-full sm:w-auto bg-gold-600 hover:bg-gold-700 text-gray-900 px-6 md:px-10 py-3.5 md:py-4 rounded-none text-base md:text-lg font-bold transition-all shadow-[0_10px_30px_-10px_rgba(184,134,11,0.5)] hover:shadow-[0_15px_35px_-5px_rgba(184,134,11,0.6)] hover:-translate-y-1 cursor-pointer text-center uppercase tracking-wider"
           >
             {t('hero.cta_primary')}
           </a>

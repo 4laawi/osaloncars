@@ -1,11 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /dashboard
-Disallow: /login
 
-# Sitemap location
 Sitemap: https://osalon-cars.ma/sitemap.xml
-
-# Crawl-delay (optional, helps prevent server overload)
-Crawl-delay: 1
-

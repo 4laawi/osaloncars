@@ -89,7 +89,7 @@ const Footer: React.FC = () => {
               href="https://www.sitepro.ma" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-primary-500 hover:text-brand-yellow transition-colors underline"
+              className="text-brand-yellow hover:text-white transition-colors underline"
              >
                 sitepro.ma
              </a>
