@@ -13,7 +13,7 @@ const Testimonials: React.FC = () => {
       <div className="absolute inset-0 z-0">
         <div 
           className="absolute inset-0 md:bg-fixed bg-cover bg-center opacity-40"
-          style={{ backgroundImage: 'url("/bg-image.png")' }}
+          style={{ backgroundImage: 'url("/bg-2-image.webp")' }}
         ></div>
         <div className="absolute inset-0 bg-luxury-900/70"></div>
       </div>

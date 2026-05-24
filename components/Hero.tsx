@@ -153,6 +153,8 @@ const Hero: React.FC = () => {
       >
         <img 
           src="/osalon-hero.webp"
+          srcSet="/osalon-hero-low.webp 1x, /osalon-hero.webp 2x"
+          sizes="100vw"
           alt={t('nav.logo_alt')}
           className="w-full h-full object-cover opacity-90"
           style={{ 

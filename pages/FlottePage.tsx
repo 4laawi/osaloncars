@@ -60,7 +60,7 @@ const FlottePage: React.FC = () => {
           {/* Background Image */}
           <div className="absolute inset-0 z-0">
             <img 
-              src="/aeroprt-herp.png"
+              src="/aeroprt-herp.webp"
               alt="Osalon Flotte"
               className="w-full h-full object-cover opacity-40" 
             />
@@ -149,7 +149,7 @@ const FlottePage: React.FC = () => {
                 <ScrollReveal animation={isRTL ? "fade-right" : "fade-left"}>
                   <div className="relative z-10 rounded-[40px] overflow-hidden shadow-2xl border-8 border-white/5">
                     <img 
-                      src="/sportage-kia.png" 
+                      src="/sportage-kia.webp" 
                       alt="Osalon Flotte Premium" 
                       className={`w-full h-auto scale-[0.85] rotate-3 ${isRTL ? '-translate-x-4' : 'translate-x-4'}`}
                     />
