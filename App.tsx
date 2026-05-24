@@ -9,19 +9,24 @@ import LoadingSpinner from './components/LoadingSpinner';
 import { Car } from './types';
 import { CARS } from './constants';
 import { Phone, ArrowRight } from 'lucide-react';
-import FlottePage from './pages/FlottePage';
-import ContactPage from './pages/ContactPage';
-import BlogPage from './pages/BlogPage';
-import BlogPostPage from './pages/BlogPostPage';
+
+// Lazy loaded components for routes
+const FlottePage = React.lazy(() => import('./pages/FlottePage'));
+const ContactPage = React.lazy(() => import('./pages/ContactPage'));
+const BlogPage = React.lazy(() => import('./pages/BlogPage'));
+const BlogPostPage = React.lazy(() => import('./pages/BlogPostPage'));
+
 import ScrollToTop from './components/ScrollToTop';
 import ScrollReveal from './components/ScrollReveal';
 import SEO from './components/SEO';
 import { useLanguage } from './lib/LanguageContext';
 import { Language } from './lib/translations';
 
-import WhyChooseUs from './components/WhyChooseUs';
-import Testimonials from './components/Testimonials';
-import FAQ from './components/FAQ';
+// Lazy loaded below-the-fold components
+const WhyChooseUs = React.lazy(() => import('./components/WhyChooseUs'));
+const Testimonials = React.lazy(() => import('./components/Testimonials'));
+const FAQ = React.lazy(() => import('./components/FAQ'));
+
 import Footer from './components/Footer';
 import WaveDivider from './components/WaveDivider';
 
@@ -94,9 +99,11 @@ const HomePage: React.FC = () => {
           </>
         )}
         
-          <WhyChooseUs />
-          <Testimonials />
-          <FAQ />
+          <React.Suspense fallback={<div className="py-20 flex justify-center"><LoadingSpinner /></div>}>
+            <WhyChooseUs />
+            <Testimonials />
+            <FAQ />
+          </React.Suspense>
 
           {/* Wave Divider */}
           <WaveDivider 
@@ -162,14 +169,16 @@ export const AppRoutes: React.FC = () => {
         <Route path="/:lang/*" element={
           <>
             <LanguageSync />
-            <Routes>
-              <Route index element={<HomePage />} />
-              <Route path="flotte" element={<FlottePage />} />
-              <Route path="contact" element={<ContactPage />} />
-              <Route path="blog" element={<BlogPage />} />
-              <Route path="blog/:slug" element={<BlogPostPage />} />
-              <Route path="*" element={<Navigate to="/" replace />} />
-            </Routes>
+            <React.Suspense fallback={<div className="min-h-screen flex items-center justify-center"><LoadingSpinner /></div>}>
+              <Routes>
+                <Route index element={<HomePage />} />
+                <Route path="flotte" element={<FlottePage />} />
+                <Route path="contact" element={<ContactPage />} />
+                <Route path="blog" element={<BlogPage />} />
+                <Route path="blog/:slug" element={<BlogPostPage />} />
+                <Route path="*" element={<Navigate to="/" replace />} />
+              </Routes>
+            </React.Suspense>
           </>
         } />
         
