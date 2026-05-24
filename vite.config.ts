@@ -45,6 +45,14 @@ export default defineConfig(({ mode }) => {
         additionalPrerenderRoutes: routesToPrerender,
         previewMiddlewareFallback: '/fr/index.html',
       }),
+      {
+        name: 'force-exit',
+        closeBundle() {
+          if (process.env.NODE_ENV === 'production') {
+            setTimeout(() => process.exit(0), 500);
+          }
+        }
+      }
     ],
     define: {
       'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),

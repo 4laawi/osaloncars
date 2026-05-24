@@ -19,11 +19,11 @@ import SEO from './components/SEO';
 import { useLanguage } from './lib/LanguageContext';
 import { Language } from './lib/translations';
 
-const WhyChooseUs = React.lazy(() => import('./components/WhyChooseUs'));
-const Testimonials = React.lazy(() => import('./components/Testimonials'));
-const FAQ = React.lazy(() => import('./components/FAQ'));
-const Footer = React.lazy(() => import('./components/Footer'));
-const WaveDivider = React.lazy(() => import('./components/WaveDivider'));
+import WhyChooseUs from './components/WhyChooseUs';
+import Testimonials from './components/Testimonials';
+import FAQ from './components/FAQ';
+import Footer from './components/Footer';
+import WaveDivider from './components/WaveDivider';
 
 // Helper component to sync language from URL
 const LanguageSync: React.FC = () => {
@@ -94,7 +94,6 @@ const HomePage: React.FC = () => {
           </>
         )}
         
-        <React.Suspense fallback={<div className="min-h-[200px]" />}>
           <WhyChooseUs />
           <Testimonials />
           <FAQ />
@@ -105,7 +104,6 @@ const HomePage: React.FC = () => {
             isRTL={isRTL}
             className="-mt-6 md:-mt-10"
           />
-        </React.Suspense>
 
         {/* Final CTA */}
         <section className="pt-16 pb-16 md:pt-24 md:pb-24 relative overflow-hidden">
@@ -139,9 +137,7 @@ const HomePage: React.FC = () => {
           </div>
         </section>
       </main>
-      <React.Suspense fallback={<div />}>
-        <Footer />
-      </React.Suspense>
+      <Footer />
 
       {/* Floating WhatsApp Action Button (Mobile/Desktop) */}
       <a 
