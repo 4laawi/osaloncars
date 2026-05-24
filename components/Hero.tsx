@@ -169,7 +169,8 @@ const Hero: React.FC = () => {
             height: '100%',
           }}
           loading="eager"
-          decoding="async"
+          decoding="sync"
+          fetchPriority="high"
         />
         {/* Dark overlay for text readability */}
         <div 

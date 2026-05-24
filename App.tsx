@@ -22,7 +22,12 @@ import ScrollReveal from './components/ScrollReveal';
 import SEO from './components/SEO';
 import { useLanguage } from './lib/LanguageContext';
 import { Language } from './lib/translations';
-import WaveDivider from './components/WaveDivider';
+
+const WhyChooseUs = React.lazy(() => import('./components/WhyChooseUs'));
+const Testimonials = React.lazy(() => import('./components/Testimonials'));
+const FAQ = React.lazy(() => import('./components/FAQ'));
+const Footer = React.lazy(() => import('./components/Footer'));
+const WaveDivider = React.lazy(() => import('./components/WaveDivider'));
 
 // Helper component to sync language from URL
 const LanguageSync: React.FC = () => {
@@ -92,17 +97,19 @@ const HomePage: React.FC = () => {
               </Fleet>
           </>
         )}
-        <WhyChooseUs />
+        
+        <React.Suspense fallback={<div className="min-h-[200px]" />}>
+          <WhyChooseUs />
+          <Testimonials />
+          <FAQ />
 
-        <Testimonials />
-        <FAQ />
-
-        {/* Wave Divider */}
-        <WaveDivider 
-          bottomColor="#851518" 
-          isRTL={isRTL}
-          className="-mt-6 md:-mt-10"
-        />
+          {/* Wave Divider */}
+          <WaveDivider 
+            bottomColor="#851518" 
+            isRTL={isRTL}
+            className="-mt-6 md:-mt-10"
+          />
+        </React.Suspense>
 
         {/* Final CTA */}
         <section className="pt-16 pb-16 md:pt-24 md:pb-24 relative overflow-hidden">
@@ -136,7 +143,9 @@ const HomePage: React.FC = () => {
           </div>
         </section>
       </main>
-      <Footer />
+      <React.Suspense fallback={<div />}>
+        <Footer />
+      </React.Suspense>
 
       {/* Floating WhatsApp Action Button (Mobile/Desktop) */}
       <a 

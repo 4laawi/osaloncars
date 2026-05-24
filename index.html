@@ -270,82 +270,11 @@
     <!-- Performance / Styles / Scripts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://cdn.tailwindcss.com">
     
-
+    <!-- LCP Image Preload -->
+    <link rel="preload" href="/osalon-hero.webp" as="image" type="image/webp" fetchpriority="high">
     
-    <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Outfit:wght@300;400;500;600;700&family=Cairo:wght@400;600;700&display=swap" rel="stylesheet" />
-    <style>
-      @keyframes fadeInUp {
-        from {
-          opacity: 0;
-          transform: translateY(20px);
-        }
-        to {
-          opacity: 1;
-          transform: translateY(0);
-        }
-      }
-      @keyframes fadeIn {
-        from { opacity: 0; }
-        to { opacity: 1; }
-      }
-      .animate-fade-in-up {
-        animation: fadeInUp 0.8s ease-out forwards;
-      }
-      .animate-fade-in {
-        animation: fadeIn 1.2s ease-out forwards;
-      }
-      
-      /* Arabic Font */
-      .font-arabic {
-        font-family: 'Cairo', sans-serif;
-      }
-      
-      /* RTL specific overrides if needed */
-      [dir="rtl"] .tracking-widest,
-      [dir="rtl"] .tracking-[0.4em],
-      [dir="rtl"] .tracking-tight {
-        letter-spacing: 0 !important;
-      }
-    </style>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              gold: {
-                50: '#fffbf2',
-                100: '#fef3c7',
-                200: '#fde68a',
-                300: '#fcd34d',
-                400: '#fbbf24',
-                500: '#d4af37', // True Gold
-                600: '#b8860b', // Goldenrod
-                700: '#926605',
-              },
-              primary: {
-                50: '#fdf2f2',
-                100: '#fde8e8',
-                500: '#851518', // Brand Red
-                600: '#6d1114',
-              },
-              luxury: {
-                50: '#f9fafb',
-                100: '#f3f4f6',
-                900: '#111827',
-              }
-            },
-            fontFamily: {
-              serif: ['"Playfair Display"', 'serif'],
-              sans: ['"Outfit"', 'sans-serif'],
-              arabic: ['"Cairo"', 'sans-serif'],
-            }
-          }
-        }
-      }
-    </script>
   </head>
 
   <body>
