@@ -60,3 +60,9 @@
 [dir="rtl"] .tracking-tight {
   letter-spacing: 0 !important;
 }
+
+/* Performance Optimizations */
+.content-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 800px;
+}

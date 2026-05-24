@@ -8,7 +8,7 @@ const Testimonials: React.FC = () => {
   const { t, isRTL } = useLanguage();
 
   return (
-    <section id="reviews" className="py-16 md:py-24 bg-luxury-900 relative overflow-hidden">
+    <section id="reviews" className="py-16 md:py-24 bg-luxury-900 relative overflow-hidden content-auto">
       {/* Sticky Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <div 

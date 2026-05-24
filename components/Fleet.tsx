@@ -54,7 +54,7 @@ const Fleet: React.FC<FleetProps> = ({ cars, onSelectCar, children }) => {
   const buttonColor = '#b8860b'; // Gold-600 constant to match WhatsApp button
 
   return (
-    <section id="fleet" className="py-12 md:py-20 bg-[#F5F5F5] relative overflow-hidden">
+    <section id="fleet" className="py-12 md:py-20 bg-[#F5F5F5] relative overflow-hidden content-auto">
       {/* Background Texture (Subtle) */}
       <div className="absolute inset-0 opacity-[0.03] pointer-events-none z-0" 
            style={{ backgroundImage: 'radial-gradient(#444 1px, transparent 1px)', backgroundSize: '32px 32px' }}>

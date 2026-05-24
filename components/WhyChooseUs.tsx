@@ -34,7 +34,7 @@ const WhyChooseUs: React.FC = () => {
   ];
 
   return (
-    <section className="py-12 md:py-24 bg-white relative overflow-hidden">
+    <section className="py-12 md:py-24 bg-white relative overflow-hidden content-auto">
       {/* Background SVG with Low Opacity */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-10"

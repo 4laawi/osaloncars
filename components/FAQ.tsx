@@ -14,7 +14,7 @@ const FAQ: React.FC = () => {
   const faqItems = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
   return (
-    <section id="faq" className="py-16 md:py-24 bg-white relative overflow-hidden">
+    <section id="faq" className="py-16 md:py-24 bg-white relative overflow-hidden content-auto">
       {/* Background Decorative Elements */}
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent"></div>
       

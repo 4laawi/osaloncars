@@ -25,11 +25,22 @@ const Hero: React.FC = () => {
 
     // Lock viewport height to prevent resize on scroll (iOS Safari address bar issue)
     let lastWidth = window.innerWidth;
+    let rafId: number | null = null;
+    
     const setViewportHeight = (e?: Event) => {
+      // Only execute if width actually changed (not just scroll bar appearing/disappearing)
+      // or if it's the initial call (no event)
       if (!e || window.innerWidth !== lastWidth) {
         lastWidth = window.innerWidth;
         const vh = window.innerHeight * 0.01;
-        document.documentElement.style.setProperty('--vh', `${vh}px`);
+        
+        // Batch DOM write using requestAnimationFrame
+        if (rafId !== null) {
+          cancelAnimationFrame(rafId);
+        }
+        rafId = requestAnimationFrame(() => {
+          document.documentElement.style.setProperty('--vh', `${vh}px`);
+        });
       }
     };
 
@@ -40,6 +51,9 @@ const Hero: React.FC = () => {
     return () => {
       window.removeEventListener('resize', setViewportHeight);
       window.removeEventListener('orientationchange', setViewportHeight);
+      if (rafId !== null) {
+        cancelAnimationFrame(rafId);
+      }
     };
   }, [isMobile]);
 
