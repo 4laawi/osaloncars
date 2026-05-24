@@ -3,16 +3,10 @@ import { defineConfig, loadEnv } from 'vite';
 import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 import { vitePrerenderPlugin } from 'vite-prerender-plugin';
+import { BLOGS } from './data/blogs';
 
-// All blog slugs — keep in sync with data/blogs.ts
-const BLOG_SLUGS = [
-  'que-faire-a-rabat-guide-ultime',
-  'location-voiture-aeroport-rabat-sale',
-  'visiter-sale-joyaux-caches',
-  'meilleurs-endroits-autour-rabat',
-  'conduire-rabat-sale-regles-astuces',
-  'pourquoi-louer-voiture-sala-al-jadida',
-];
+// Automatically load all blog slugs from data/blogs.ts
+const BLOG_SLUGS = BLOGS.map((blog) => blog.slug);
 
 const LANGS = ['fr', 'en', 'ar'];
 
