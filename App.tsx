@@ -3,12 +3,8 @@ import { BrowserRouter, Routes, Route, Navigate, useParams, useLocation } from '
 import { LanguageProvider } from './lib/LanguageContext';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import WhyChooseUs from './components/WhyChooseUs';
 import Fleet from './components/Fleet';
 import BookingForm from './components/BookingForm';
-import Testimonials from './components/Testimonials';
-import FAQ from './components/FAQ';
-import Footer from './components/Footer';
 import LoadingSpinner from './components/LoadingSpinner';
 import { Car } from './types';
 import { CARS } from './constants';
