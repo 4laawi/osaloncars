@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
             <div className="mb-4">
               <Link to={`/${language}`}>
                 <img 
-                  src="/logo-osalon.pdf.png" 
+                  src="/logo-osalon.pdf.webp" 
                   alt={t('nav.logo_alt')} 
                   className={`h-12 w-auto object-contain ${isRTL ? 'mr-0 ml-auto' : 'ml-0 mr-auto'}`}
                 />

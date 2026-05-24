@@ -38,7 +38,7 @@
     <meta property="og:url" content="https://osalon-cars.ma/fr" />
     <meta property="og:title" content="Location de Voiture Sala Al Jadida | Agence O'Salon Car Maroc" />
     <meta property="og:description" content="Agence de location de voiture à Sala Al Jadida. Location de voiture Sala Al Jadida, Rabat et aéroport Rabat-Salé. Flotte moderne, tarifs compétitifs." />
-    <meta property="og:image" content="https://osalon-cars.ma/logo-osalon.pdf.png" />
+    <meta property="og:image" content="https://osalon-cars.ma/logo-osalon.pdf.webp" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:locale" content="fr_FR" />
@@ -51,11 +51,11 @@
     <meta name="twitter:url" content="https://osalon-cars.ma/fr" />
     <meta name="twitter:title" content="Location de Voiture Sala Al Jadida | Agence O'Salon Car Maroc" />
     <meta name="twitter:description" content="Agence de location de voiture à Sala Al Jadida. Location de voiture Sala Al Jadida, Rabat et aéroport Rabat-Salé. Flotte moderne, tarifs compétitifs." />
-    <meta name="twitter:image" content="https://osalon-cars.ma/logo-osalon.pdf.png" />
+    <meta name="twitter:image" content="https://osalon-cars.ma/logo-osalon.pdf.webp" />
     
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="apple-touch-icon" href="/logo-osalon.pdf.png" />
+    <link rel="apple-touch-icon" href="/logo-osalon.pdf.webp" />
     
     <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">
@@ -64,7 +64,7 @@
       "@type": "CarRentalService",
       "name": "O'Salon Car - Location de Voiture Sala Al Jadida",
       "alternateName": "Agence de Location de Voiture Sala Al Jadida",
-      "image": "https://osalon-cars.ma/logo-osalon.pdf.png",
+      "image": "https://osalon-cars.ma/logo-osalon.pdf.webp",
       "@id": "https://osalon-cars.ma/",
       "url": "https://osalon-cars.ma/fr",
       "telephone": "+212661492612",
@@ -118,7 +118,7 @@
       "url": "https://osalon-cars.ma/",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://osalon-cars.ma/logo-osalon.pdf.png",
+        "url": "https://osalon-cars.ma/logo-osalon.pdf.webp",
         "width": 400,
         "height": 400
       },
@@ -273,7 +273,7 @@
     <link rel="preconnect" href="https://www.transparenttextures.com">
     
     <!-- LCP Image Preload -->
-    <link rel="preload" href="/osalon-hero.webp" as="image" type="image/webp" fetchpriority="high">
+    <link rel="preload" href="/osalon-hero.webp" as="image" type="image/webp" fetchpriority="high" media="(min-width: 768px)">
     
     <!-- Asynchronous Google Fonts -->
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Outfit:wght@300;400;500;600;700&family=Cairo:wght@400;600;700&display=swap">
@@ -281,15 +281,52 @@
     <noscript>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Outfit:wght@300;400;500;600;700&family=Cairo:wght@400;600;700&display=swap">
     </noscript>
+
+    <style>
+      #initial-loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff;
+        z-index: 99999;
+        font-family: 'Outfit', sans-serif;
+        transition: opacity 0.3s ease-out;
+      }
+      .loader-spinner {
+        width: 50px;
+        height: 50px;
+        border: 4px solid #fde8e8;
+        border-top-color: #851518;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin-bottom: 20px;
+      }
+      .loader-text {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #851518;
+        letter-spacing: 1px;
+      }
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
   </head>
 
   <body>
-    <div id="root">
-      <div id="initial-loader">
-        <div class="loader-spinner"></div>
-        <div class="loader-text">O'Salon Car</div>
-      </div>
+    <div id="initial-loader">
+      <div class="loader-spinner"></div>
+      <div class="loader-text">O'Salon Car</div>
     </div>
+    <div id="root"></div>
     <script type="module" src="/index.tsx?v=2"></script>
   </body>
 </html>

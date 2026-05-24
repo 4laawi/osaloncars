@@ -104,7 +104,7 @@ const Navbar: React.FC = () => {
                     />
                 ) : (
                     <img 
-                        src="/logo-osalon.pdf.png" 
+                        src="/logo-osalon.pdf.webp" 
                         alt={t('nav.logo_alt')} 
                         className="h-12 md:h-16 w-auto object-contain transition-all duration-300"
                         // @ts-ignore - Fetch priority is a valid standard attribute but React types might lag

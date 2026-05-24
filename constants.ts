@@ -109,7 +109,7 @@ export const CARS: Car[] = [
     pricePerDay: 350,
     features: ['Climatisation', 'Bluetooth', 'Sécurité ABS', 'GPS'],
     accessories: ['Sièges auto', 'JAWAZ'],
-    image: '/PEUGOT_208.webp',
+    image: '/PEUGOT208.webp',
     isAvailable: true,
     accentColor: '#E8B44A',
     rating: 4.9,
