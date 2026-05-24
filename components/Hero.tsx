@@ -151,27 +151,28 @@ const Hero: React.FC = () => {
           height: '100%',
         }}
       >
-        <img 
-          src="/osalon-hero.webp"
-          srcSet="/osalon-hero-low.webp 1x, /osalon-hero.webp 2x"
-          sizes="100vw"
-          alt={t('nav.logo_alt')}
-          className="w-full h-full object-cover opacity-90"
-          style={{ 
-            backgroundColor: '#000000',
-            pointerEvents: 'none',
-            objectFit: 'cover',
-            objectPosition: 'center',
-            position: 'absolute',
-            top: 0,
-            left: 0,
-            width: '100%',
-            height: '100%',
-          }}
-          loading="eager"
-          decoding="sync"
-          fetchPriority="high"
-        />
+        <picture className="absolute inset-0 w-full h-full">
+          <source media="(min-width: 768px)" srcSet="/osalon-hero.webp" />
+          <img 
+            src="/osalon-hero-low.webp"
+            alt={t('nav.logo_alt')}
+            className="w-full h-full object-cover opacity-90"
+            style={{ 
+              backgroundColor: '#000000',
+              pointerEvents: 'none',
+              objectFit: 'cover',
+              objectPosition: 'center',
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: '100%',
+              height: '100%',
+            }}
+            loading="eager"
+            decoding="sync"
+            fetchPriority="high"
+          />
+        </picture>
         {/* Dark overlay for text readability */}
         <div 
           className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60"
