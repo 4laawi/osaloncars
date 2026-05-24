@@ -19,6 +19,8 @@ const Footer: React.FC = () => {
                   src="/logo-osalon.pdf.webp" 
                   alt={t('nav.logo_alt')} 
                   className={`h-12 w-auto object-contain ${isRTL ? 'mr-0 ml-auto' : 'ml-0 mr-auto'}`}
+                  width="200"
+                  height="48"
                 />
               </Link>
             </div>

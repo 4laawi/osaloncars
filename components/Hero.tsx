@@ -185,6 +185,8 @@ const Hero: React.FC = () => {
             loading="eager"
             decoding="sync"
             fetchPriority="high"
+            width="1920"
+            height="1080"
           />
         </picture>
         {/* Dark overlay for text readability */}

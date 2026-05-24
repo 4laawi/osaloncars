@@ -63,6 +63,8 @@ const FlottePage: React.FC = () => {
               src="/aeroprt-herp.webp"
               alt="Osalon Flotte"
               className="w-full h-full object-cover opacity-40" 
+              width="1920"
+              height="1080"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-luxury-900/60 via-transparent to-luxury-900"></div>
           </div>
@@ -152,6 +154,8 @@ const FlottePage: React.FC = () => {
                       src="/sportage-kia.webp" 
                       alt="Osalon Flotte Premium" 
                       className={`w-full h-auto scale-[0.85] rotate-3 ${isRTL ? '-translate-x-4' : 'translate-x-4'}`}
+                      width="800"
+                      height="600"
                     />
                   </div>
                   <div className={`absolute -bottom-8 bg-white p-8 rounded-3xl shadow-2xl z-20 hidden md:block ${isRTL ? '-right-8' : '-left-8'}`}>

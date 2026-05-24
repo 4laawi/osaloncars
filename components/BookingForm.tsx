@@ -321,6 +321,8 @@ const BookingForm: React.FC<BookingFormProps> = ({ cars, selectedCarId }) => {
                                           ? 'object-contain scale-[1.05] md:object-cover md:scale-100' 
                                           : 'object-cover'
                                     }`}
+                                    width="800"
+                                    height="600"
                                 />
                                 <div className={`absolute bottom-0 left-0 right-0 p-3 md:p-4 z-20 flex items-end justify-between translate-y-1 group-hover:translate-y-0 transition-transform duration-300 ${isRTL ? 'flex-row-reverse' : ''}`}>
                                     <div className={isRTL ? 'text-right' : 'text-left'}>

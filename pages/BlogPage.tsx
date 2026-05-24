@@ -36,6 +36,8 @@ const BlogPage: React.FC = () => {
               src="/blog-hero.webp" 
               alt="Osalon" 
               className="w-full h-full object-cover opacity-60"
+              width="1920"
+              height="1080"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-luxury-900/90 via-luxury-900/30 to-luxury-900/90"></div>
           </div>
@@ -67,6 +69,8 @@ const BlogPage: React.FC = () => {
                         src={post.image} 
                         alt={post.title} 
                         className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+                        width="800"
+                        height="600"
                       />
                       <div className={`absolute top-4 bg-primary-500 text-white text-xs font-bold px-3 py-1 rounded-full ${isRTL ? 'left-4' : 'right-4'}`}>
                         {post.tags[0]}

@@ -41,6 +41,8 @@ const BlogPostPage: React.FC = () => {
               alt={post.title} 
               className="w-full h-full object-cover"
               itemProp="image"
+              width="1200"
+              height="800"
             />
             <div className="absolute inset-0 z-20 flex items-center justify-center container mx-auto px-6 text-center">
               <div className="max-w-4xl">

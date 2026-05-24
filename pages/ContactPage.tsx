@@ -28,6 +28,8 @@ const ContactPage: React.FC = () => {
               src="/hero-contact.webp" 
               alt="Contact Osalon Car Rental" 
               className="w-full h-full object-cover opacity-50"
+              width="1920"
+              height="1080"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-luxury-900/90 via-luxury-900/20 to-luxury-900/90"></div>
           </div>

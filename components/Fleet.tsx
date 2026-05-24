@@ -72,6 +72,8 @@ const Fleet: React.FC<FleetProps> = ({ cars, onSelectCar, children }) => {
           src="/Curve Line (2).svg" 
           alt="Background curve" 
           className="w-full h-full object-cover mt-12 md:mt-20"
+          width="800"
+          height="400"
         />
       </div>
 
@@ -116,6 +118,8 @@ const Fleet: React.FC<FleetProps> = ({ cars, onSelectCar, children }) => {
                     src={index % 2 === 0 ? "/Curve Line (2).svg" : "/Curve Line (3).svg"} 
                     alt="Card Background" 
                     className="w-full h-full object-cover scale-[1.2]"
+                    width="400"
+                    height="200"
                   />
                 </div>
 
@@ -136,6 +140,8 @@ const Fleet: React.FC<FleetProps> = ({ cars, onSelectCar, children }) => {
                     loading="lazy"
                     decoding="async"
                     style={{ willChange: 'transform' }}
+                    width="800"
+                    height="600"
                   />
                   
                   {/* Floating Badge (Only if available) */}
