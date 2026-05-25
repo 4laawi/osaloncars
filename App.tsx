@@ -10,11 +10,10 @@ import { Car } from './types';
 import { CARS } from './constants';
 import { Phone, ArrowRight } from 'lucide-react';
 
-// Lazy loaded components for routes
-const FlottePage = React.lazy(() => import('./pages/FlottePage'));
-const ContactPage = React.lazy(() => import('./pages/ContactPage'));
-const BlogPage = React.lazy(() => import('./pages/BlogPage'));
-const BlogPostPage = React.lazy(() => import('./pages/BlogPostPage'));
+import FlottePage from './pages/FlottePage';
+import ContactPage from './pages/ContactPage';
+import BlogPage from './pages/BlogPage';
+import BlogPostPage from './pages/BlogPostPage';
 
 import ScrollToTop from './components/ScrollToTop';
 import ScrollReveal from './components/ScrollReveal';
@@ -22,10 +21,9 @@ import SEO from './components/SEO';
 import { useLanguage } from './lib/LanguageContext';
 import { Language } from './lib/translations';
 
-// Lazy loaded below-the-fold components
-const WhyChooseUs = React.lazy(() => import('./components/WhyChooseUs'));
-const Testimonials = React.lazy(() => import('./components/Testimonials'));
-const FAQ = React.lazy(() => import('./components/FAQ'));
+import WhyChooseUs from './components/WhyChooseUs';
+import Testimonials from './components/Testimonials';
+import FAQ from './components/FAQ';
 
 import Footer from './components/Footer';
 import WaveDivider from './components/WaveDivider';
@@ -65,15 +63,6 @@ const HomePage: React.FC = () => {
     setIsLoading(false);
   }, []);
 
-  // Remove initial loader when React is ready
-  useEffect(() => {
-    const loader = document.getElementById('initial-loader');
-    if (loader) {
-      // Remove loader immediately when React hydrates
-      loader.style.opacity = '0';
-      setTimeout(() => loader.remove(), 300);
-    }
-  }, []);
 
   return (
     <div className={`font-sans text-gray-900 bg-white ${isRTL ? 'text-right' : 'text-left'}`}>
@@ -191,6 +180,16 @@ export const AppRoutes: React.FC = () => {
 };
 
 const App: React.FC = () => {
+  // Remove initial loader when React is ready on any direct entry page
+  useEffect(() => {
+    const loader = document.getElementById('initial-loader');
+    if (loader) {
+      // Remove loader immediately when React hydrates
+      loader.style.opacity = '0';
+      setTimeout(() => loader.remove(), 300);
+    }
+  }, []);
+
   return (
     <BrowserRouter>
       <AppRoutes />
