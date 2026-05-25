@@ -29,7 +29,7 @@ const BlogPostPage: React.FC = () => {
         canonical={`https://osalon-cars.ma/${language}/blog/${post.slug}`}
       />
       
-      <Navbar />
+      <Navbar solid />
       
       <main className="flex-grow pt-24 pb-20">
         <article itemScope itemType="http://schema.org/BlogPosting">

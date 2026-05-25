@@ -4,7 +4,11 @@ import { useLanguage } from '../lib/LanguageContext';
 import { Language } from '../lib/translations';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 
-const Navbar: React.FC = () => {
+interface NavbarProps {
+  solid?: boolean;
+}
+
+const Navbar: React.FC<NavbarProps> = ({ solid = false }) => {
   const { language, setLanguage, t, isRTL } = useLanguage();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -65,10 +69,10 @@ const Navbar: React.FC = () => {
   }, []);
 
   const navClass = `fixed w-full z-[100] transition-all duration-300 ${
-    isScrolled || isMobileMenuOpen ? 'bg-white shadow-md py-4' : 'bg-transparent py-6'
+    solid || isScrolled || isMobileMenuOpen ? 'bg-white shadow-md py-4' : 'bg-transparent py-6'
   }`;
 
-  const textClass = isScrolled || isMobileMenuOpen ? 'text-gray-900' : 'text-gray-900 lg:text-white';
+  const textClass = solid || isScrolled || isMobileMenuOpen ? 'text-gray-900' : 'text-gray-900 lg:text-white';
 
   const scrollToSection = (id: string) => {
     const idToScroll = id.replace('#', '');
@@ -86,7 +90,7 @@ const Navbar: React.FC = () => {
         {/* Logo */}
         <div className="flex items-center gap-2">
             <Link to={`/${language}`} className="block" onClick={() => setIsMobileMenuOpen(false)}>
-                {isScrolled || isMobileMenuOpen ? (
+                {solid || isScrolled || isMobileMenuOpen ? (
                     <div 
                         className="h-12 md:h-14 lg:h-16 aspect-[160/64] bg-gold-600 transition-all duration-300"
                         style={{
