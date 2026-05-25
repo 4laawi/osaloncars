@@ -5,24 +5,31 @@ export const BLOGS: BlogPost[] = [
     id: "blog-1",
     slug: "que-faire-a-rabat-guide-ultime",
     title: "Que faire à Rabat : Le guide ultime pour explorer la capitale marocaine",
-    excerpt: "Découvrez les incontournables de Rabat, de la Tour Hassan à la Kasbah des Oudayas. Un guide complet pour un séjour inoubliable.",
+    excerpt: "Découvrez les incontournables de Rabat, de la Tour Hassan à la Kasbah des Oudayas. Un guide complet pour un séjour inoubliable avec nos conseils de transport.",
     content: `
-      <h2>Bienvenue à Rabat, la Ville Lumière</h2>
-      <p>Rabat, capitale du Maroc, est une ville où l'histoire ancienne rencontre la modernité. Si vous vous demandez <strong>que faire à Rabat</strong>, vous êtes au bon endroit. Grâce à une voiture de location, explorer ces lieux magiques devient un jeu d'enfant.</p>
+      <h2>Bienvenue à Rabat, la Ville Lumière du Maroc</h2>
+      <p>Rabat, la capitale administrative du Royaume, est une métropole majestueuse où le passé impérial côtoie harmonieusement la modernité contemporaine. Classée au patrimoine mondial de l'UNESCO, elle séduit les voyageurs par son atmosphère raffinée, ses avenues fleuries et ses trésors architecturaux uniques. Si vous vous demandez <strong>que faire à Rabat</strong> pour vivre une expérience inoubliable, ce guide complet a été spécialement conçu pour vous.</p>
+      <p>Grâce à sa situation côtière sur l'océan Atlantique et à l'embouchure du fleuve Bouregreg, Rabat jouit d'un climat agréable tout au long de l'année. Pour explorer chaque recoin de cette ville étendue en toute liberté et sans contrainte de temps, opter pour la <strong>location de voiture à Rabat</strong> avec une agence fiable comme O'Salon Rental s'impose comme le choix le plus confortable.</p>
 
-      <h3>1. La Tour Hassan et le Mausolée Mohammed V</h3>
-      <p>Commencez votre journée par l'emblématique <strong>Tour Hassan</strong>. Ce minaret impressionnant, entouré de centaines de colonnes de marbre, est le symbole de la ville. Juste en face se trouve le somptueux <strong>Mausolée Mohammed V</strong>, un chef-d'œuvre de l'artisanat marocain.</p>
+      <h3>1. La Tour Hassan et le somptueux Mausolée Mohammed V</h3>
+      <p>Commencez votre parcours par le monument le plus emblématique de la ville : la <strong>Tour Hassan</strong>. Ce minaret en grès rouge de 44 mètres de haut est le vestige spectaculaire d'une mosquée majestueuse initiée au XIIe siècle par le sultan almohade Abu Yaqub Yusuf, qui devait être la plus grande du monde musulman mais resta inachevée.</p>
+      <p>Juste en face de la tour se dresse le magnifique <strong>Mausolée Mohammed V</strong>, un chef-d'œuvre absolu de l'artisanat traditionnel marocain. Il abrite les sépultures royaux du roi Mohammed V et de ses fils. La coupole en bois de cèdre sculpté et doré à la feuille, les stucs fins et les zelliges colorés en font un lieu de contemplation solennel incontournable.</p>
 
-      <h3>2. La Kasbah des Oudayas</h3>
-      <p>Perchée au-dessus de l'océan Atlantique, la Kasbah des Oudayas vous charmera avec ses ruelles aux murs bleus et blancs, rappelant Chefchaouen. Ne manquez pas de déguster un thé à la menthe au célèbre Café Maure avec une vue imprenable sur l'estuaire du Bouregreg.</p>
+      <h3>2. La Kasbah des Oudayas : Un paradis bleu et blanc sur l'océan</h3>
+      <p>Perchée sur une falaise dominant l'embouchure du Bouregreg, la <strong>Kasbah des Oudayas</strong> est un ancien camp militaire fortifié fondé au XIIe siècle. En franchissant sa porte monumentale en pierre sculptée, Bab Oudaïa, vous pénétrez dans un havre de paix pittoresque aux ruelles sinueuses peintes en bleu et blanc, rappelant le charme unique de Chefchaouen.</p>
+      <p>Flânez dans le calme poétique de son <strong>Jardin Andalou</strong> fleuri, puis arrêtez-vous au célèbre <strong>Café Maure</strong>. Entièrement restauré, ce lieu magique offre l'occasion de savourer un thé à la menthe traditionnel accompagné de succulents biscuits marocains tout en profitant d'un panorama exceptionnel sur l'estuaire et la côte atlantique.</p>
 
-      <h3>3. Le Chellah</h3>
-      <p>Plongez dans l'histoire en visitant la nécropole du Chellah, où des ruines romaines côtoient des vestiges islamiques, le tout dans un cadre paisible peuplé de cigognes.</p>
+      <h3>3. La Nécropole du Chellah : Une poésie antique et médiévale</h3>
+      <p>Située à la périphérie du centre-ville, la nécropole fortifiée du <strong>Chellah</strong> est un site archéologique mystique où les ruines de la cité romaine de Sala Colonia côtoient les vestiges d'un complexe islamique mérinide du XIVe siècle. Envahi par une végétation sauvage et peuplé par des dizaines de cigognes qui y construisent leurs nids géants, le Chellah offre une promenade poétique unique, chargée d'histoire et de légendes locales.</p>
 
-      <h2>Pourquoi louer une voiture pour visiter Rabat ?</h2>
-      <p>Rabat est étendue et certaines attractions, comme le Zoo de Rabat, se trouvent en périphérie. Faire appel à une <strong>agence de location de voiture à Rabat</strong> comme O'Salon Rental vous garantit un confort absolu et un gain de temps précieux.</p>
+      <h3>4. La Médina de Rabat : Authenticité préservée et artisanat d'art</h3>
+      <p>Contrairement à d'autres métropoles marocaines, la <strong>Médina de Rabat</strong> se distingue par sa propreté, sa tranquillité et son authenticité préservée. Construite au XVIIe siècle par des réfugiés andalous, elle s'organise autour de la célèbre Rue des Consuls, réputée pour ses échoppes de tapis de Rabat de haute qualité, ses maroquineries fines, ses bijoux en argent et ses poteries traditionnelles.</p>
+
+      <h2>Pourquoi louer un véhicule pour votre séjour à Rabat ?</h2>
+      <p>Rabat est une métropole étendue avec des pôles d'activités et des monuments dispersés. Les attractions phares comme le magnifique <strong>Jardin Zoologique National de Rabat</strong> (le plus beau d'Afrique avec ses fameux Lions de l'Atlas) ou les plages de Sidi Bouknadel se situent en périphérie.</p>
+      <p>Faire appel à notre service de <strong>location de voiture pas cher à Rabat</strong> vous garantit une flexibilité absolue, un confort maximal pour vos déplacements familiaux ou professionnels et un gain de temps précieux pour profiter pleinement de votre séjour marocain.</p>
     `,
-    image: "/blog-rabat-guide.png",
+    image: "/blogs/que-faire-a-rabat-guide-ultime/hero.png",
     date: "2024-04-10",
     author: "O'Salon Team",
     tags: ["Rabat", "Tourisme", "Guide"],
@@ -32,24 +39,43 @@ export const BLOGS: BlogPost[] = [
         excerpt: "Discover the must-sees of Rabat, from the Hassan Tower to the Kasbah of the Udayas. A complete guide for an unforgettable stay.",
         content: `
           <h2>Welcome to Rabat, the City of Light</h2>
-          <p>Rabat, the capital of Morocco, is a city where ancient history meets modernity. If you're wondering <strong>what to do in Rabat</strong>, you've come to the right place. With a rental car, exploring these magical places becomes a breeze.</p>
-          <h3>1. Hassan Tower and Mohammed V Mausoleum</h3>
-          <p>Start your day with the iconic <strong>Hassan Tower</strong>. This impressive minaret, surrounded by hundreds of marble columns, is the symbol of the city. Just opposite is the sumptuous <strong>Mohammed V Mausoleum</strong>, a masterpiece of Moroccan craftsmanship.</p>
-          <h3>2. Kasbah of the Udayas</h3>
-          <p>Perched above the Atlantic Ocean, the Kasbah of the Udayas will charm you with its blue and white-walled alleys, reminiscent of Chefchaouen. Don't miss tasting a mint tea at the famous Café Maure with a breathtaking view of the Bouregreg estuary.</p>
+          <p>Rabat, the capital of Morocco, is a majestic city where imperial history meets contemporary modernity. Certified as a UNESCO World Heritage site, it captivates travelers with its elegant atmosphere, flower-lined avenues, and unique architectural treasures. If you are wondering <strong>what to do in Rabat</strong> to make your trip unforgettable, this ultimate guide is made for you.</p>
+          <p>Renting a vehicle from a trusted agency like <strong>O'Salon Rental</strong> is the most comfortable and flexible way to explore this expansive city and its breathtaking surroundings at your own pace.</p>
+
+          <h3>1. Hassan Tower and the Royal Mohammed V Mausoleum</h3>
+          <p>Start your discovery with the city's iconic symbol: the <strong>Hassan Tower</strong>. Standing 44 meters high, this red sandstone minaret is a spectacular remnant of a massive 12th-century mosque initiated by Almohad Sultan Abu Yaqub Yusuf, designed to be the largest in the Islamic world.</p>
+          <p>Right opposite the tower is the magnificent <strong>Mohammed V Mausoleum</strong>, a masterpiece of traditional Moroccan craftsmanship containing the royal tombs. Its dome of carved cedar wood gilded with gold leaf and fine zellij tiling makes it a highly solemn and peaceful place to visit.</p>
+
+          <h3>2. Kasbah of the Udayas: A Blue and White Paradise</h3>
+          <p>Perched on a cliff overlooking the Bouregreg River estuary, the <strong>Kasbah of the Udayas</strong> is a 12th-century fortress. Passing through its massive carved stone gate, Bab Oudaïa, you enter a quiet residential area of narrow, winding streets painted in vivid blue and white, reminiscent of Chefchaouen.</p>
+          <p>Stroll through the lovely Andalusian Garden, then take a relaxing break at the famous <strong>Café Maure</strong> to enjoy traditional mint tea and Moroccan pastries with panoramic views of the Atlantic coastline.</p>
+
+          <h3>3. Chellah Necropolis and the Medina</h3>
+          <p>Don't miss the mystical <strong>Chellah Necropolis</strong>, a historic site where Roman ruins and 14th-century Merenid tombs blend into a peaceful, wild park populated by storks. For shopping and authentic culture, explore the <strong>Medina of Rabat</strong>. Famous for its Rue des Consuls, it offers premium local carpets, leather goods, and silver jewelry without the stress of aggressive haggling.</p>
+
+          <h2>The Ultimate Comfort: Car Rental in Rabat</h2>
+          <p>Rabat is wide and spread out, meaning top sights like the National Zoo or surrounding surf beaches require reliable transportation. Contact <strong>O'Salon Car Rental</strong> today to secure a modern, fully maintained vehicle and enjoy a completely stress-free Moroccan vacation!</p>
         `,
-        tags: ["Rabat", "Tourism", "Guide"]
+        tags: ["Rabat", ["Tourism", "Guide"]]
       },
       ar: {
         title: "ماذا تفعل في الرباط : الدليل الشامل لاستكشاف العاصمة المغربية",
         excerpt: "اكتشف المعالم التي لا بد من زيارتها في الرباط، من صومعة حسان إلى قصبة الوداية. دليل كامل لإقامة لا تُنسى.",
         content: `
-          <h2>مرحبا بكم في الرباط، مدينة الأنوار</h2>
-          <p>الرباط، عاصمة المغرب، هي مدينة يلتقي فيها التاريخ القديم بالحداثة. إذا كنت تتساءل <strong>ماذا تفعل في الرباط</strong>، فأنت في المكان الصحيح. بفضل كراء سيارة، يصبح استكشاف هذه الأماكن الساحرة أمراً في غاية السهولة.</p>
-          <h3>1. صومعة حسان وضريح محمد الخامس</h3>
-          <p>ابدأ يومك بزيارة <strong>صومعة حسان</strong> الشهيرة. هذه المئذنة الرائعة، المحاطة بمئات الأعمدة الرخامية، هي رمز المدينة. ومقابلها مباشرة يوجد <strong>ضريح محمد الخامس</strong> الفخم، وهو تحفة من الحرفية المغربية.</p>
-          <h3>2. قصبة الوداية</h3>
-          <p>تقع قصبة الوداية فوق المحيط الأطلسي، وستسحرك بأزقتها ذات الجدران الزرقاء والبيضاء. لا تفوت تذوق شاي النعناع في مقهى "مور" الشهير مع إطلالة خلابة على مصب نهر أبي رقراق.</p>
+          <h2>مرحباً بكم في الرباط، مدينة الأنوار وعاصمة المغرب الثقافية</h2>
+          <p>الرباط، عاصمة المملكة المغربية الإدارية، هي مدينة إمبراطورية مهيبة يمتزج فيها التاريخ العريق بالحداثة المعاصرة بشكل متناغم. بصفتها موقعاً مسجلاً في التراث العالمي لليونسكو، تأسر الرباط زوارها بأجوائها الراقية، وشوارعها الفسيحة المزينة بالورود، وكنوزها المعمارية الفريدة. إذا كنت تتساءل <strong>ماذا تفعل في الرباط</strong> لقضاء عطلة لا تُنسى، فإن هذا الدليل الشامل مصمم خصيصاً لك.</p>
+          <p>بفضل موقعها الساحلي المتميز على المحيط الأطلسي وعند مصب نهر أبي رقراق، تتمتع الرباط بطقس معتدل طوال العام. ولاستكشاف كل ركن من أركان هذه المدينة المترامية الأطراف بكل حرية ودون قيود زمنية، يعد <strong>كراء السيارات في الرباط</strong> عبر وكالة موثوقة مثل O'Salon Rental هو الخيار الأكثر راحة وأماناً.</p>
+
+          <h3>1. صومعة حسان وضريح محمد الخامس الملكي</h3>
+          <p>ابدأ رحلتك بزيارة الرمز الأبرز للمدينة: <strong>صومعة حسان</strong>. هذه المنارة المصنوعة من الحجر الرملي الأحمر، والتي يبلغ ارتفاعها 44 متراً، هي الشاهد الأثري البارز على مسجد ضخم بدأ تشييده في القرن الثاني عشر في عهد السلطان الموحدي أبو يعقوب يوسف ليكون الأكبر في العالم الإسلامي لكنه لم يكتمل.</p>
+          <p>ومقابل الصومعة مباشرة، يرتفع <strong>ضريح محمد الخامس</strong> الشامخ، وهو تحفة فنية مطلقة للصناعة التقليدية المغربية. يضم الضريح رفات الملكين الراحلين محمد الخامس والحسن الثاني. وتعد القبة المصنوعة من خشب الأرز المنحوت والمذهب بصفائح الذهب، والنقوش الجصية الدقيقة والزليج الملون، معلماً روحانياً ومعمارياً لا غنى عن زيارته.</p>
+
+          <h3>2. قصبة الوداية: فردوس أزرق وأبيض على المحيط</h3>
+          <p>تقع قصبة الوداية فوق جرف صخري يطل على مصب نهر أبي رقراق، وهي قلعة عسكرية قديمة تأسست في القرن الثاني عشر. بمجرد عبور بوابتها الحجرية الضخمة المنحوتة "باب الوداية"، ستدخل عالماً هادئاً يضم أزقة ضيقة ملونة بالأزرق والأبيض الجذاب، تذكرنا بسحر مدينة شفشاون الفريد.</p>
+          <p>تجول في هدوء "الحديقة الأندلسية" الوارفة بالزهور، ثم خذ قسطاً من الراحة في "المقهى الموري" الشهير للاستمتاع بشرب شاي النعناع المغربي التقليدي وتناول الحلويات اللذيذة أمام إطلالة بانورامية ساحرة على المصب والمحيط الأطلسي.</p>
+
+          <h3>3. شواطئ وغابة المعمورة والتنقل المريح</h3>
+          <p>تتميز الرباط بانتشار الحدائق الخضراء والمعالم التاريخية الواسعة مثل موقع شالة الأثري وحديقة الحيوانات الوطنية الضخمة بالرباط التي تعتبر الأجمل في أفريقيا. إن الاستعانة بخدماتنا المتميزة في <strong>كراء السيارات بسعر مناسب في الرباط</strong> تضمن لك ولعائلتك المرونة والراحة الكاملة للتنقل وتوفير الوقت للاستمتاع بكل لحظة في المغرب.</p>
         `,
         tags: ["الرباط", "سياحة", "دليل"]
       }
@@ -59,30 +85,40 @@ export const BLOGS: BlogPost[] = [
     id: "blog-2",
     slug: "location-voiture-aeroport-rabat-sale",
     title: "Location de voiture à l'Aéroport de Rabat-Salé : Tout ce qu'il faut savoir",
-    excerpt: "Optimisez votre temps dès votre arrivée au Maroc. Découvrez pourquoi louer une voiture à l'aéroport de Rabat-Salé est la meilleure solution.",
+    excerpt: "Optimisez votre temps dès votre arrivée au Maroc. Découvrez pourquoi louer une voiture à l'aéroport de Rabat-Salé avec livraison personnalisée est la meilleure solution.",
     content: `
-      <h2>Arriver à l'Aéroport de Rabat-Salé (RBA)</h2>
-      <p>L'Aéroport International de Rabat-Salé est votre porte d'entrée vers la capitale et sa région. Pour commencer votre séjour sans stress, opter pour la <strong>location de voiture à l'aéroport de Rabat</strong> est un choix stratégique.</p>
+      <h2>Arriver à l'Aéroport International de Rabat-Salé (RBA)</h2>
+      <p>L'Aéroport International de Rabat-Salé (RBA) est votre porte d'entrée idéale pour la capitale et sa vaste région. Pour commencer votre séjour au Maroc sans aucun stress logistique, opter pour la <strong>location de voiture à l'aéroport de Rabat</strong> est un choix hautement stratégique. Cela vous évite l'attente fastidieuse des navettes ou la négociation des prix avec les chauffeurs de taxi locaux.</p>
 
-      <h3>Gagnez du temps et du confort</h3>
-      <p>Dès la sortie du terminal de l'<strong>aéroport de Salé</strong>, oubliez l'attente des navettes ou les négociations de taxis. Avec votre voiture de location réservée à l'avance chez O'Salon Rental, vous prenez la route immédiatement vers votre hôtel ou votre lieu de rendez-vous.</p>
+      <h3>Une prise en main rapide et un confort absolu</h3>
+      <p>Dès votre sortie du terminal moderne de l'<strong>aéroport de Salé</strong>, oubliez les tracas de transport. Avec votre voiture de location réservée à l'avance chez O'Salon Rental, un de nos agents vous accueille personnellement dans le hall des arrivées avec un panneau à votre nom. Le contrat se signe en quelques minutes et vous prenez immédiatement la route vers votre hôtel ou vos rendez-vous professionnels.</p>
 
-      <h3>Comment réserver votre véhicule ?</h3>
-      <p>Nous vous recommandons de réserver en ligne avant votre départ. Que vous cherchiez une petite citadine économique pour vous faufiler dans le trafic, ou un SUV confortable pour voyager en famille, O'Salon propose une flotte variée. Notre agence peut livrer directement votre voiture à l'aéroport !</p>
+      <h3>Comment choisir et réserver le véhicule idéal ?</h3>
+      <p>Nous vous recommandons vivement de planifier votre réservation en ligne avant votre départ pour bénéficier des meilleurs tarifs. Notre flotte diversifiée répond à toutes vos exigences :</p>
+      <ul>
+        <li><strong>Citadines Économiques (ex: Dacia Sandero, Renault Clio) :</strong> Parfaites pour se faufiler dans le trafic urbain et stationner facilement.</li>
+        <li><strong>Berlines Confortables (ex: Hyundai Elantra) :</strong> Idéales pour les familles ou les voyages professionnels de longue durée.</li>
+        <li><strong>SUV Robustes (ex: Hyundai Tucson, Kia Sportage) :</strong> Offrant une position de conduite surélevée et une sécurité optimale pour explorer les environs de Rabat.</li>
+      </ul>
+      <p>Chez O'Salon Rental, la livraison et la récupération de votre véhicule directement à l'aéroport de Rabat-Salé sont entièrement personnalisées pour vous garantir un gain de temps inestimable.</p>
     `,
-    image: "/blog-airport.png",
+    image: "/blogs/location-voiture-aeroport-rabat-sale/hero.png",
     date: "2024-04-12",
     author: "O'Salon Team",
     tags: ["Aéroport", "Salé", "Location"],
     translations: {
       en: {
         title: "Car Rental at Rabat-Salé Airport: Everything You Need to Know",
-        excerpt: "Optimize your time from your arrival in Morocco. Discover why renting a car at Rabat-Salé airport is the best solution.",
+        excerpt: "Optimize your time from your arrival in Morocco. Discover why renting a car at Rabat-Salé airport with custom delivery is your best option.",
         content: `
-          <h2>Arriving at Rabat-Salé Airport (RBA)</h2>
-          <p>Rabat-Salé International Airport is your gateway to the capital and its region. To start your stay stress-free, opting for <strong>car rental at Rabat airport</strong> is a strategic choice.</p>
-          <h3>Save Time and Comfort</h3>
-          <p>As soon as you leave the <strong>Salé airport</strong> terminal, forget waiting for shuttles or taxi negotiations. With your rental car booked in advance at O'Salon Rental, you take the road immediately.</p>
+          <h2>Arriving at Rabat-Salé International Airport (RBA)</h2>
+          <p>Rabat-Salé International Airport is the perfect gateway to the capital city and its dynamic surroundings. To start your stay stress-free, choosing <strong>car rental at Rabat airport</strong> is a highly strategic choice. It saves you from waiting for airport buses or struggling with local taxi negotiations.</p>
+
+          <h3>Instant Vehicle Pick-up and Premium Comfort</h3>
+          <p>Right as you exit the <strong>Salé airport</strong> terminal, leave transport hassles behind. When you book your vehicle in advance with O'Salon Rental, one of our professional agents will greet you directly in the arrival hall with a personalized name card. You can sign the rental agreement in a few moments and hit the road immediately.</p>
+
+          <h3>Tips to Reserve the Perfect Vehicle</h3>
+          <p>We highly suggest booking online before your departure to secure competitive local rates. We offer a modern fleet suitable for any trip: agile city cars, spacious family sedans, and high-performance SUVs. Contact O'Salon today to secure custom airport delivery!</p>
         `,
         tags: ["Airport", "Salé", "Rental"]
       },
@@ -90,10 +126,14 @@ export const BLOGS: BlogPost[] = [
         title: "كراء السيارات في مطار الرباط سلا : كل ما يجب معرفته",
         excerpt: "وفر وقتك بمجرد وصولك إلى المغرب. اكتشف لماذا يعتبر كراء سيارة من مطار الرباط سلا الحل الأفضل.",
         content: `
-          <h2>الوصول إلى مطار الرباط سلا (RBA)</h2>
-          <p>مطار الرباط سلا الدولي هو بوابتك إلى العاصمة ومنطقتها. لبدء إقامتك بدون توتر، يعد اختيار <strong>كراء السيارات في مطار الرباط</strong> خياراً استراتيجياً.</p>
-          <h3>وفر الوقت والراحة</h3>
-          <p>بمجرد خروجك من محطة <strong>مطار سلا</strong>، انسَ انتظار الحافلات أو التفاوض مع سيارات الأجرة. مع سيارتك المستأجرة المحجوزة مسبقاً لدى O'Salon Rental، ستنطلق في الطريق فوراً.</p>
+          <h2>الوصول إلى مطار الرباط سلا الدولي (RBA)</h2>
+          <p>مطار الرباط سلا الدولي هو بوابتك المثالية للعاصمة ومنطقتها. لتجنب أي ضغوطات أو تأخير عند الوصول، يعد اختيار <strong>كراء السيارات في مطار الرباط</strong> خياراً استراتيجياً بامتياز، يوفر عليك عناء انتظار وسائل النقل العامة أو التفاوض الصعب مع سائقي سيارات الأجرة.</p>
+
+          <h3>استلام سريع وراحة تامة</h3>
+          <p>بمجرد خروجك من صالة الوصول بمطار سلا، يتكفل فريق O'Salon Rental باستقبالك بشكل شخصي حاملين لافتة باسمك لتسهيل عملية التعارف. يتم توقيع العقد في دقائق معدودة لتنطلق بسيارتك مباشرة نحو وجهتك.</p>
+
+          <h3>كيف تختار سيارتك وتضمن حجزها؟</h3>
+          <p>ننصحك دائماً بالحجز المسبق عبر الإنترنت قبل تاريخ سفرك لضمان توفر السيارة المناسبة بأفضل الأسعار. نوفر لك أسطولاً متنوعاً يضم السيارات الاقتصادية للمدينة، والسيارات العائلية المريحة، وسيارات الدفع الرباعي الفاخرة لتلبية جميع احتياجاتك.</p>
         `,
         tags: ["مطار", "سلا", "كراء"]
       }
@@ -103,38 +143,53 @@ export const BLOGS: BlogPost[] = [
     id: "blog-3",
     slug: "visiter-sale-joyaux-caches",
     title: "Visiter Salé : Les joyaux cachés de la ville jumelle de Rabat",
-    excerpt: "Traversez le Bouregreg et partez à la découverte de Salé, une ville chargée d'authenticité, de corsaires et d'histoire.",
+    excerpt: "Traversez le Bouregreg et partez à la découverte de Salé, une ville historique chargée d'authenticité, de corsaires et d'un patrimoine architectural exceptionnel.",
     content: `
-      <h2>Salé, la voisine authentique</h2>
-      <p>Souvent éclipsée par Rabat, <strong>Salé</strong> est une ville à la richesse culturelle incroyable. Seulement séparée de la capitale par le fleuve Bouregreg, c'est une étape incontournable pour ceux qui aiment l'authenticité.</p>
+      <h2>Salé, la voisine historique et authentique</h2>
+      <p>Souvent éclipsée par le prestige moderne de sa voisine Rabat, la ville de <strong>Salé</strong> possède une richesse historique et culturelle absolument fascinante. Séparée de la capitale par le fleuve Bouregreg, Salé est une destination incontournable pour les voyageurs en quête d'authenticité marocaine, de récits de corsaires légendaires et de monuments médiévaux d'une beauté rare.</p>
+      <p>Pour vous déplacer facilement d'une rive à l'autre et accéder aux trésors de Salé en toute tranquillité, disposer d'une <strong>location de voiture à Rabat-Salé</strong> est un avantage indispensable.</p>
 
-      <h3>La Médina de Salé</h3>
-      <p>Déambulez dans l'ancienne Médina pour découvrir l'artisanat local, loin du flot touristique traditionnel. La Grande Mosquée de Salé et la Médersa mérinide (Abou Al Hassan) sont des chefs-d'œuvre de l'architecture arabo-andalouse.</p>
+      <h3>1. La Médersa Mérinide d'Abou Al-Hassan : Un trésor d'art arabo-andalou</h3>
+      <p>Construite en 1341 sous le règne du sultan mérinide Abou al-Hassan, cette ancienne école théologique est l'une des plus petites mais surtout l'une des plus finement sculptées de tout le pays. Ses murs ornés de stucs ciselés, ses zelliges colorés au sol et ses plafonds en bois de cèdre sculpté témoignent du raffinement exceptionnel de l'artisanat de l'époque. Ne manquez pas de monter sur son toit-terrasse pour admirer une vue panoramique unique sur les toits de la médina et l'estuaire du Bouregreg.</p>
+
+      <h3>2. La Médina de Salé et Bab el-Mrissa</h3>
+      <p>Promenez-vous dans les ruelles animées de la vieille Médina de Salé, réputée pour son calme et son authenticité préservée. Vous y découvrirez des artisans locaux travaillant le jonc et le bois. À l'entrée sud de la médina se dresse <strong>Bab el-Mrissa</strong>, une immense porte fortifiée du XIIIe siècle sous laquelle passaient autrefois les bateaux de corsaires pour rejoindre leur port intérieur protégé.</p>
+
+      <h3>3. La Marina du Bouregreg : Le point de rencontre moderne</h3>
+      <p>Après une immersion dans l'histoire, détendez-vous le long des quais modernes de la **Marina du Bouregreg**, qui relie Rabat et Salé. C'est l'endroit parfait pour déguster un repas en terrasse face aux bateaux de plaisance et à la Kasbah des Oudayas de Rabat. Un grand parking sécurisé est disponible pour stationner votre voiture O'Salon en toute sécurité.</p>
     `,
-    image: "/blog-sale-guide.png",
+    image: "/blogs/visiter-sale-joyaux-caches/hero.png",
     date: "2024-04-14",
     author: "O'Salon Team",
     tags: ["Salé", "Médina", "Marina"],
     translations: {
       en: {
         title: "Visiting Salé: The Hidden Gems of Rabat's Twin City",
-        excerpt: "Cross the Bouregreg and discover Salé, a city full of authenticity, privateers, and history.",
+        excerpt: "Cross the Bouregreg and discover Salé, an authentic historic city full of privateers history and outstanding architecture.",
         content: `
           <h2>Salé, the Authentic Neighbor</h2>
-          <p>Often overshadowed by Rabat, <strong>Salé</strong> is a city of incredible cultural wealth. Only separated from the capital by the Bouregreg River, it is an essential stop for those who love authenticity.</p>
-          <h3>The Medina of Salé</h3>
-          <p>Stroll through the ancient Medina to discover local craftsmanship, far from the traditional tourist flow.</p>
+          <p>Often overshadowed by Rabat, <strong>Salé</strong> is a city of incredible cultural and historical wealth. Separated from the capital only by the Bouregreg River, it is an essential stop for travelers looking for authentic Moroccan life, legendary privateer history, and beautifully preserved medieval monuments.</p>
+
+          <h3>1. The Merenid Medersa of Abu Al-Hassan</h3>
+          <p>Built in 1341, this ancient theological school is a masterpiece of Arab-Andalusian art. Its intricate stucco carvings, vibrant zellij tile work, and sculpted cedar wood ceilings display breathtaking craftsmanship. The rooftop terrace offers a stunning view of the twin cities and the river.</p>
+
+          <h3>2. Medina of Salé, Bab el-Mrissa, and the Marina</h3>
+          <p>Stroll through the old Medina to witness traditional local crafts. Don't miss <strong>Bab el-Mrissa</strong>, a monumental 13th-century marine gate. Complete your tour at the modern <strong>Bouregreg Marina</strong>, featuring great riverside cafés and ample safe parking for your O'Salon rental car.</p>
         `,
         tags: ["Salé", "Medina", "Marina"]
       },
       ar: {
         title: "زيارة سلا : الجواهر الخفية للمدينة التوأم للرباط",
-        excerpt: "اعبر أبي رقراق واكتشف مدينة سلا، المدينة المليئة بالأصالة، وتاريخ القراصنة.",
+        excerpt: "اعبر أبي رقراق واكتشف مدينة سلا، المدينة المليئة بالأصالة، وتاريخ القراصنة والآثار العريقة.",
         content: `
-          <h2>سلا، الجارة الأصيلة</h2>
-          <p>غالباً ما تطغى عليها الرباط، لكن <strong>سلا</strong> مدينة ذات ثراء ثقافي مذهل. يفصلها عن العاصمة نهر أبي رقراق فقط، وهي محطة لا غنى عنها لمحبي الأصالة.</p>
-          <h3>مدينة سلا القديمة</h3>
-          <p>تجول في المدينة القديمة لاكتشاف الصناعة التقليدية المحلية، بعيداً عن التدفق السياحي التقليدي.</p>
+          <h2>سلا، الجارة الأصيلة المليئة بالتاريخ</h2>
+          <p>على الرغم من قربها من العاصمة الرباط، تحتفظ مدينة <strong>سلا</strong> بطابعها التاريخي الفريد وأصالتها المغربية العريقة. يفصلها عن الرباط نهر أبي رقراق، وهي محطة لا غنى عنها لمحبي استكشاف التاريخ، وقصص قراصنة البحر الأسطوريين، والآثار الأندلسية النادرة.</p>
+
+          <h3>1. المدرسة المرينية لأبي الحسن: تحفة معمارية أندلسية</h3>
+          <p>تعتبر هذه المدرسة الدينية التي تأسست عام 1341 نموذجاً رائعاً للهندسة المعمارية الإسلامية. تتميز بنقوشها الجصية البديعة، والزليج الملون الذي يغطي أرضيتها، وسقفها المصنوع من خشب الأرز الفاخر. يتيح لك الصعود لسطحها التمتع بإطلالة بانورامية رائعة على مصب النهر وأسوار الرباط.</p>
+
+          <h3>2. المدينة القديمة لسلا، باب المريسة ومارينا أبي رقراق</h3>
+          <p>تجول في شوارع المدينة القديمة الهادئة وتعرف على الصناعات اليدوية المحلية كصناعة الحصير والخشب المسجر. زر بوابة <strong>باب المريسة</strong> التاريخية الضخمة التي كانت تعبر من تحتها سفن القراصنة قديماً، واختتم جولتك بالاسترخاء في مقاهي **مارينا أبي رقراق** الحديثة.</p>
         `,
         tags: ["سلا", "مدينة قديمة", "مارينا"]
       }
@@ -146,25 +201,25 @@ export const BLOGS: BlogPost[] = [
     title: "Les 5 meilleurs endroits à visiter autour de Rabat en voiture",
     excerpt: "Profitez de votre voiture de location pour explorer les plages, forêts et villes historiques situées à moins de deux heures de Rabat.",
     content: `
-      <h2>Échappez à la ville : Excursions d'une journée en voiture</h2>
-      <p>L'avantage d'une <strong>location de voiture à Rabat</strong> est la possibilité de sortir des sentiers battus. Voici les destinations idéales pour des excursions d'une journée que vous pouvez facilement explorer en toute autonomie :</p>
+      <h2>Échappez à la ville : Magnifiques excursions d'une journée en voiture</h2>
+      <p>L'immense avantage d'une <strong>location de voiture à Rabat</strong> est la possibilité de sortir des sentiers battus pour explorer des destinations d'une beauté sauvage exceptionnelle à votre propre rythme. Voici les 5 meilleurs endroits à visiter en toute liberté lors d'excursions d'une journée :</p>
 
       <h3>1. La Plage des Nations (Sidi Bouknadel)</h3>
-      <p>Située à seulement 25 minutes au nord de Salé, la <strong>Plage des Nations</strong> est un havre de paix pour les amateurs de surf et de détente. Les vagues de l'Atlantique y sont magnifiques et le rivage est bordé de cafés modernes. C'est l'excursion parfaite pour échapper au rythme urbain de la capitale.</p>
+      <p>Située à seulement 25 minutes au nord de Salé, la <strong>Plage des Nations</strong> est un havre de paix côtier très prisé des surfeurs et des amateurs de détente. Bordée de dunes de sable fin et de cafés modernes, elle offre un bol d'air marin ressourçant. À proximité, ne manquez pas de visiter les magnifiques **Jardins Exotiques de Bouknadel**, un parc botanique spectaculaire abritant des plantes du monde entier.</p>
 
       <h3>2. La Forêt de la Maâmora</h3>
-      <p>Considérée comme l'une des plus grandes forêts de chênes-lièges au monde, la <strong>forêt de la Maâmora</strong> offre un immense espace vert idéal pour un pique-nique en famille ou une randonnée paisible. Accessible en moins de 30 minutes de route, elle constitue un véritable poumon vert pour la région.</p>
+      <p>Considérée comme l'une des plus grandes forêts de chênes-lièges au monde, la **forêt de la Maâmora** offre un immense espace naturel idéal pour une randonnée en forêt ou un pique-nique ombragé en famille. Facilement accessible en voiture en 30 minutes de route, c'est le véritable poumon vert de la région.</p>
 
       <h3>3. Les Plages de Skhirat et Bouznika</h3>
-      <p>En longeant la côte vers le sud via la route côtière, vous atteindrez <strong>Skhirat</strong> et <strong>Bouznika</strong> en moins de 40 minutes. Connues pour leurs plages de sable fin et leurs lagunes calmes, ces stations balnéaires proposent également d'excellents restaurants de poissons frais au bord de l'eau.</p>
+      <p>En longeant la côte vers le sud via la route côtière pittoresque, vous atteindrez <strong>Skhirat</strong> (célèbre pour sa lagune calme et son poisson frais) et <strong>Bouznika</strong> en moins de 40 minutes. Ce sont des stations balnéaires idéales pour la baignade et pour savourer des fruits de mer grillés au bord de l'océan.</p>
 
       <h3>4. Le Lac du Barrage Sidi Mohamed Ben Abdallah</h3>
-      <p>Pour les amateurs de paysages sauvages, ce magnifique lac de barrage artificiel sur le Bouregreg offre des panoramas grandioses et des collines verdoyantes. C'est un endroit parfait pour la photographie et la contemplation, à seulement 30 km à l'est de Rabat.</p>
+      <p>Pour les amateurs de paysages sauvages et de randonnée, ce magnifique lac de barrage artificiel sur le fleuve Bouregreg offre des panoramas grandioses et des collines verdoyantes préservées, à seulement 30 kilomètres à l'est de la capitale.</p>
 
       <h3>5. La Ville Historique de Meknès et les Ruines de Volubilis</h3>
-      <p>Pour une excursion historique d'une journée complète, prenez l'autoroute A2 en direction de l'est. En moins de 2 heures, vous atteindrez <strong>Meknès</strong>, l'une des quatre villes impériales du Maroc, et les majestueuses ruines romaines de <strong>Volubilis</strong>, classées au patrimoine mondial de l'UNESCO. Une voiture fiable est essentielle pour faire ce voyage confortable dans la journée.</p>
+      <p>Pour une excursion historique d'une journée complète, prenez l'autoroute A2 vers l'est. En moins de 2 heures de route confortable, vous atteindrez la ville impériale de <strong>Meknès</strong> et le site antique romain de <strong>Volubilis</strong>, classé au patrimoine mondial de l'UNESCO. Disposer d'une berline confortable ou d'un SUV chez O'Salon Rental rend cette escapade inoubliable.</p>
     `,
-    image: "/blog-excursions.png",
+    image: "/blogs/meilleurs-endroits-autour-rabat/hero.png",
     date: "2024-04-16",
     author: "O'Salon Team",
     tags: ["Excursions", "Plages", "Rabat"],
@@ -174,46 +229,34 @@ export const BLOGS: BlogPost[] = [
         excerpt: "Take advantage of your rental car to explore the beaches, forests, and historic cities located less than two hours from Rabat.",
         content: `
           <h2>Escape the City: Beautiful Day Trips by Car</h2>
-          <p>The advantage of a <strong>car rental in Rabat</strong> is the ability to get off the beaten path. Here are 5 exceptional destinations you can easily visit in a single day:</p>
+          <p>The main advantage of a <strong>car rental in Rabat</strong> is the total freedom to get off the beaten track. Here are 5 exceptional day trips you can easily make within two hours of driving:</p>
 
-          <h3>1. Plage des Nations (Sidi Bouknadel)</h3>
-          <p>Located just 25 minutes north of Salé, <strong>Plage des Nations</strong> is a paradise for surfers and beach lovers. It offers scenic Atlantic waves, modern cafés, and a relaxing sandy beach away from the capital's busy center.</p>
+          <h3>1. Plage des Nations (Sidi Bouknadel) and the Exotic Gardens</h3>
+          <p>Just 25 minutes north of Salé, <strong>Plage des Nations</strong> is a surfer's paradise with golden sand and modern beachside cafés. On your way, visit the nearby <strong>Bouknadel Exotic Gardens</strong>, a stunning ecological botanical park housing rare plant species from around the world.</p>
 
-          <h3>2. The Maâmora Forest</h3>
-          <p>As one of the world's largest cork oak forests, <strong>Maâmora Forest</strong> provides a peaceful escape for hiking and family picnics. A short 30-minute drive from Rabat brings you directly into these beautiful green hills.</p>
+          <h3>2. The Maâmora Forest and Coastal Beaches</h3>
+          <p>Reaching the majestic <strong>Maâmora Forest</strong>, one of the world's largest cork oak forests, takes only 30 minutes. If you prefer coastal relaxation, drive south along the scenic route to the gorgeous beaches of <strong>Skhirat</strong> and <strong>Bouznika</strong>, perfect for swimming and tasting fresh grilled seafood.</p>
 
-          <h3>3. Skhirat and Bouznika Beaches</h3>
-          <p>Driving south along the beautiful coastal road leads you to <strong>Skhirat</strong> and <strong>Bouznika</strong> in about 40 minutes. Renowned for their fine golden sand and quiet lagoons, they are perfect for sunbathing and tasting fresh seafood.</p>
-
-          <h3>4. Sidi Mohamed Ben Abdallah Dam Lake</h3>
-          <p>For lovers of raw nature, this reservoir on the Bouregreg River features spectacular views and green landscapes. It is a peaceful spot for outdoor photography and nature walks, just 30 km east of Rabat.</p>
-
-          <h3>5. Imperial Meknes and Roman Volubilis</h3>
-          <p>Take a full-day historical trip east via the highway. In less than 2 hours, you can explore the imperial city of <strong>Meknes</strong> and the ancient Roman ruins of <strong>Volubilis</strong>, a UNESCO World Heritage site. A comfortable rental vehicle makes this long-distance excursion stress-free.</p>
+          <h3>3. Imperial Meknes and Roman Volubilis</h3>
+          <p>Take a full-day cultural trip east via the highway. In less than 2 hours, you can explore the historic imperial city of <strong>Meknes</strong> and the extraordinary Roman ruins of <strong>Volubilis</strong>, a UNESCO World Heritage site. Renting a comfortable vehicle from O'Salon makes long journeys highly pleasant for everyone.</p>
         `,
-        tags: ["Excursions", "Beaches", "Rabat"]
+        tags: ["Excursions", ["Beaches", "Rabat"]]
       },
       ar: {
         title: "أفضل 5 أماكن للزيارة حول الرباط بالسيارة",
-        excerpt: "استفد من سيارتك المستأجرة لاستكشاف الشواطئ والغابات والمدن التاريخية التي تقع على بعد أقل de ساعتين من الرباط.",
+        excerpt: "استفد من سيارتك المستأجرة لاستكشاف الشواطئ والغابات والمدن التاريخية التي تقع على بعد أقل من ساعتين من الرباط.",
         content: `
-          <h2>الهروب من المدينة: رحلات يومية رائعة بالسيارة</h2>
-          <p>ميزة <strong>كراء السيارات في الرباط</strong> هي القدرة على الخروج عن المسارات المألوفة. إليك أفضل 5 وجهات استثنائية يمكنك زيارتها بسهولة في يوم واحد:</p>
+          <h2>الهروب من صخب المدينة: رحلات يومية رائعة بالسيارة</h2>
+          <p>أكبر ميزة لـ <strong>كراء السيارات في الرباط</strong> هي القدرة على الانطلاق في رحلات استكشافية ممتعة خارج حدود العاصمة وزيارة وجهات طبيعية وتاريخية ساحرة في يوم واحد بكل راحة وحرية:</p>
 
-          <h3>1. شاطئ الأمم (سيدي بوقنادل)</h3>
-          <p>يقع <strong>شاطئ الأمم</strong> على بعد 25 دقيقة فقط شمال سلا، وهو ملاذ رائع لعشاق ركوب الأمواج والاسترخاء. يتميز بإطلالته الخلابة على المحيط الأطلسي والمقاهي الحديثة المحيطة به.</p>
+          <h3>1. شاطئ الأمم (سيدي بوقنادل) والحدائق العجيبة</h3>
+          <p>يقع <strong>شاطئ الأمم</strong> على بعد 25 دقيقة فقط شمال سلا، وهو ملاذ رائع لعشاق ركوب الأمواج والاستجمام الهادئ. وعلى بعد دقائق منه، تقع **حدائق بوقنادل العجيبة**، وهي حديقة نباتية مذهلة تضم فصائل نادرة من النباتات من مختلف القارات.</p>
 
-          <h3>2. غابة المعمورة</h3>
-          <p>تعتبر <strong>غابة المعمورة</strong> من أكبر غابات البلوط الفليني في العالم، وتوفر مساحات خضراء شاسعة مثالية للنزهات العائلية والمشي لمسافات طويلة وسط الطبيعة الهادئة، على بعد 30 دقيقة فقط من الرباط.</p>
+          <h3>2. غابة المعمورة وشواطئ الصخيرات وبوزنيقة</h3>
+          <p>تعتبر <strong>غابة المعمورة</strong> أكبر غابة للبلوط الفليني في العالم، وتوفر مساحات خضراء رائعة للنزهات العائلية على بعد 30 دقيقة فقط من الرباط. وإذا اتجهت جنوباً عبر الطريق الساحلي، ستصل إلى شواطئ **الصخيرات** و **بوزنيقة** الرائعة لتناول وجبة سمك مشوي طري أمام المحيط.</p>
 
-          <h3>3. شواطئ الصخيرات وبوزنيقة</h3>
-          <p>بالتوجه جنوباً عبر الطريق الساحلي، ستصل إلى <strong>الصخيرات</strong> و <strong>بوزنيقة</strong> في أقل من 40 دقيقة. تشتهر هذه المناطق بشواطئها الذهبية ومطاعم الأسماك الطرية على طول الشاطئ.</p>
-
-          <h3>4. بحيرة سد سيدي محمد بن عبد الله</h3>
-          <p>لعشاق الطبيعة العذراء، توفر هذه البحيرة الاصطناعية على نهر أبي رقراق مناظر طبيعية ساحرة وتلالاً خضراء ممتدة. مكان مثالي للتصوير والاستجمام على بعد 30 كلم شرق العاصمة.</p>
-
-          <h3>5. مدينة مكناس التاريخية وآثار وليلي</h3>
-          <p>للقيام برحلة تاريخية متكاملة، اسلك الطريق السيار شرقاً. في أقل من ساعتين، يمكنك استكشاف مدينة <strong>مكناس</strong> الإمبراطورية والآثار الرومانية العريقة في <strong>وليلي</strong> المصنفة تراثاً عالمياً لدى اليونسكو.</p>
+          <h3>3. مدينة مكناس التاريخية وآثار وليلي الرومانية</h3>
+          <p>لرحلة تاريخية متكاملة، اسلك الطريق السيار شرقاً لمدة تقل عن ساعتين لتصل لمدينة **مكناس** الإمبراطورية وآثار **وليلي** الرومانية العريقة المصنفة تراثاً عالمياً لليونسكو. إن توفير سيارة مريحة من O'Salon Rental يجعل هذا السفر تجربة ممتعة ومريحة لجميع أفراد العائلة.</p>
         `,
         tags: ["رحلات", "شواطئ", "الرباط"]
       }
@@ -226,29 +269,29 @@ export const BLOGS: BlogPost[] = [
     excerpt: "Ce qu'il faut savoir avant de prendre le volant au Maroc. Découvrez nos conseils pour une conduite sereine à Rabat et Salé.",
     content: `
       <h2>Prendre la route au Maroc : Guide de conduite pour les touristes</h2>
-      <p>Si vous envisagez une <strong>location de voiture à l'aéroport de Rabat-Salé</strong>, il est crucial de connaître les bases de la conduite marocaine pour assurer votre sécurité et voyager en toute sérénité. Voici nos conseils et règles essentielles :</p>
+      <p>Si vous envisagez de recourir à la <strong>location de voiture à l'aéroport de Rabat-Salé</strong>, il est essentiel de bien connaître le code de la route et les habitudes de conduite locales pour vous déplacer en toute sécurité et sérénité. Voici nos conseils pratiques et règles indispensables :</p>
 
-      <h3>1. Respectez scrupuleusement les limitations de vitesse</h3>
-      <p>Le Maroc applique des contrôles de vitesse stricts avec de nombreux radars fixes et mobiles. Les limites standards sont :</p>
+      <h3>1. Respectez scrupuleusement les limitations de vitesse et les radars</h3>
+      <p>Le Maroc applique des contrôles de vitesse rigoureux avec de nombreux radars fixes et mobiles. Les limitations standards sont :</p>
       <ul>
-        <li><strong>En ville (Rabat et Salé) :</strong> 60 km/h (parfois 50 km/h dans certaines zones résidentielles).</li>
-        <li><strong>Hors agglomération :</strong> 80 à 100 km/h sur les routes nationales.</li>
+        <li><strong>En ville (Rabat et Salé) :</strong> 60 km/h (parfois 50 ou 40 km/h dans les zones résidentielles denses).</li>
+        <li><strong>Sur les routes nationales :</strong> 80 à 100 km/h.</li>
         <li><strong>Sur autoroute :</strong> 120 km/h.</li>
       </ul>
 
-      <h3>2. La règle des rond-points et intersections</h3>
-      <p>Dans la grande majorité des rond-points modernes à Rabat et Salé, la priorité est donnée aux véhicules **déjà engagés** à l'intérieur du rond-point (priorité à gauche). Cependant, soyez attentif aux panneaux à l'entrée car certains anciens ronds-points ou intersections sans signalisation appliquent la stricte **priorité à droite**.</p>
+      <h3>2. Le fonctionnement des ronds-points</h3>
+      <p>Dans la grande majorité des ronds-points de Rabat et Salé, la priorité est donnée aux véhicules **déjà engagés** à l'intérieur (priorité à gauche). Cependant, restez très attentif aux panneaux à l'entrée car certains anciens croisements sans signalisation appliquent la stricte **priorité à droite**.</p>
 
-      <h3>3. Attention au Tramway de Rabat-Salé</h3>
-      <p>Le tramway relie Rabat et Salé en traversant de grandes artères. Le tramway a **toujours la priorité absolue** sur tous les autres véhicules, y compris dans les ronds-points. Ne bloquez jamais les voies ferrées et ralentissez dès que vous approchez d'un croisement de tramway.</p>
+      <h3>3. La priorité absolue du Tramway</h3>
+      <p>Le tramway relie activement Rabat et Salé en traversant de grands boulevards. Le tramway a **toujours la priorité absolue** sur tous les autres usagers, y compris à l'intérieur des ronds-points. Ne bloquez jamais ses rails et ralentissez dès que vous approchez d'un croisement.</p>
 
-      <h3>4. Les barrages de contrôle de police et gendarmerie</h3>
-      <p>À l'entrée et à la sortie de chaque ville, ainsi que sur certains axes majeurs, vous rencontrerez des barrages de contrôle routier. La procédure est simple : ralentissez bien à l'avance et arrêtez-vous au niveau du panneau "Halte Police" ou "Halte Gendarmerie". Attendez le signal de l'agent (souvent un simple signe de la main) avant de repartir calmement.</p>
+      <h3>4. Les barrages de contrôle de police</h3>
+      <p>À l'entrée et à la sortie de chaque ville, ainsi que sur l'autoroute, vous rencontrerez des barrages de contrôle. Ralentissez bien en avance et arrêtez-vous complètement au niveau du panneau "Halte Police" ou "Halte Gendarmerie". Repartez uniquement après le signal clair de l'agent.</p>
 
-      <h3>5. Comprendre le système de stationnement et les gardiens</h3>
-      <p>À Rabat et Salé, le stationnement est souvent réglementé par des horodateurs (zones bleues). De plus, presque chaque rue dispose d'un gardien de voiture officiel, reconnaissable à son gilet fluorescent (bleu ou jaune). Il est d'usage de leur laisser une petite pièce lors de votre départ : 2 à 3 dirhams pour un stationnement court en journée, et 5 à 10 dirhams si vous laissez la voiture toute la nuit.</p>
+      <h3>5. Le stationnement et les Gardiens de voiture</h3>
+      <p>En centre-ville, le stationnement est réglementé par des horodateurs (zones bleues). De plus, presque chaque rue dispose d'un gardien officiel portant un gilet fluorescent. Il est d'usage de lui laisser une petite pièce lors de votre départ : 2 à 3 dirhams pour un stationnement court en journée, et 5 à 10 dirhams si vous laissez la voiture toute la nuit.</p>
     `,
-    image: "/blog-driving-tips.png",
+    image: "/blogs/conduire-rabat-sale-regles-astuces/hero.png",
     date: "2024-04-18",
     author: "O'Salon Team",
     tags: ["Conduite", "Conseils", "Tourisme"],
@@ -258,27 +301,21 @@ export const BLOGS: BlogPost[] = [
         excerpt: "What you need to know before taking the wheel in Morocco. Discover our tips for serene driving in Rabat and Salé.",
         content: `
           <h2>Taking the Road in Morocco: Driving Guide for Tourists</h2>
-          <p>If you are considering <strong>car rental at Rabat-Salé airport</strong>, it is crucial to know the basics of Moroccan driving to ensure your safety and enjoy a stress-free trip. Here are our essential rules and practical tips:</p>
+          <p>If you are planning on <strong>car rental at Rabat-Salé airport</strong>, knowing local driving rules and traffic habits is essential to guarantee a safe and enjoyable trip. Here are our top practical tips:</p>
 
-          <h3>1. Follow Speed Limits Strictly</h3>
-          <p>Morocco has strict speed enforcement with numerous fixed and mobile radar cameras. Standard speed limits are:</p>
+          <h3>1. Speed Limits and Strictly Enforced Radars</h3>
+          <p>Morocco has strict speed enforcement with many fixed and mobile radar cameras. Standard speed limits are:</p>
           <ul>
-            <li><strong>In urban areas (Rabat/Salé):</strong> 60 km/h (sometimes 50 km/h in residential zones).</li>
+            <li><strong>In urban areas (Rabat/Salé):</strong> 60 km/h (sometimes 40 or 50 km/h in schools and residential zones).</li>
             <li><strong>On national roads:</strong> 80 to 100 km/h.</li>
             <li><strong>On highways (Autoroutes):</strong> 120 km/h.</li>
           </ul>
 
-          <h3>2. Roundabout and Intersection Rules</h3>
-          <p>In most modern roundabouts in Rabat and Salé, vehicles **inside** the roundabout have priority (yield to the left). However, always watch the signs at the entry, as some older roundabouts or uncontrolled intersections still apply strict **priority to the right** (priorité à droite).</p>
+          <h3>2. Roundabouts, Tramway, and Checkpoints</h3>
+          <p>Most modern roundabouts give priority to vehicles already inside (yield to the left). However, always be alert for signs. Remember that the **Rabat-Salé Tramway has absolute priority** in all situations. Never block the tracks. When approaching police checkpoints at city entrances, slow down and stop at the "Halte Police" sign, proceeding only when waved through.</p>
 
-          <h3>3. Beware of the Rabat-Salé Tramway</h3>
-          <p>The modern tramway network connects Rabat and Salé, crossing major avenues. The tram **always has absolute priority** over all other vehicles. Never block the tracks and slow down immediately when approaching tram crossings.</p>
-
-          <h3>4. Police and Gendarmerie Checkpoints</h3>
-          <p>You will frequently encounter highway police checkpoints at the entrances and exits of cities. Always slow down in advance and bring the car to a slow crawl or stop at the "Halte Police" or "Halte Gendarmerie" sign. Wait for the officer to wave you through before proceeding.</p>
-
-          <h3>5. Parking and Car Guards (Gardiens)</h3>
-          <p>Parking in city centers is often managed by parking meters (marked as blue zones). Additionally, almost every street has an official car guard wearing a bright fluorescent vest. It is customary to pay them a small tip when leaving: 2 to 3 MAD for daytime parking, and 5 to 10 MAD for overnight parking.</p>
+          <h3>3. Deciphering Parking and Car Guards (Gardiens)</h3>
+          <p>City centers use blue zones controlled by parking meters. Additionally, almost every street has an official guard wearing a bright vest. It is customary to pay them a small tip when leaving: 2 to 3 MAD for daytime parking, and 5 to 10 MAD for overnight stays.</p>
         `,
         tags: ["Driving", "Tips", "Tourism"]
       },
@@ -286,30 +323,24 @@ export const BLOGS: BlogPost[] = [
         title: "القيادة في الرباط وسلا : قواعد المرور ونصائح للسياح",
         excerpt: "ما يجب معرفته قبل الجلوس خلف المقود في المغرب. اكتشف نصائحنا لقيادة هادئة في الرباط وسلا.",
         content: `
-          <h2>القيادة في الرباط وسلا : دليل قواعد المرور ونصائح للسياح</h2>
-          <p>إذا كنت تفكر في <strong>كراء سيارة في مطار الرباط سلا</strong>، فمن الضروري معرفة أساسيات القيادة المغربية لضمان سلامتك والاستمتاع برحلة هادئة. إليك أهم القواعد والنصائح العملية:</p>
+          <h2>القيادة في المغرب: دليل مروري مبسط للسياح</h2>
+          <p>إذا كنت تخطط لـ <strong>كراء سيارة في مطار الرباط سلا</strong>، فمن الضروري معرفة قواعد المرور الأساسية وعادات القيادة المحلية لضمان سلامتك وسلامة ركابك طوال الرحلة. إليك أهم النصائح العملية:</p>
 
-          <h3>1. الالتزام التام بالسرعة القانونية</h3>
-          <p>تخضع الطرق في المغرب لمراقبة صارمة بالرادارات الثابتة والمتحركة. السرعات القانونية هي:</p>
+          <h3>1. الالتزام الصارم بالسرعات القانونية ومراقبة الرادارات</h3>
+          <p>تطبق السلطات المغربية رقابة صارمة على السرعة عبر أجهزة الرادار الثابتة والمحمولة. السرعات القانونية المحددة هي:</p>
           <ul>
-            <li><strong>داخل المجال الحضري (الرباط وسلا):</strong> 60 كلم/ساعة (وأحياناً 50 كلم/ساعة في المناطق السكنية).</li>
-            <li><strong>خارج المجال الحضري:</strong> 80 إلى 100 كلم/ساعة على الطرق الوطنية.</li>
-            <li><strong>على الطريق السيار:</strong> 120 كلم/ساعة.</li>
+            <li><strong>داخل المدار الحضري (الرباط وسلا):</strong> 60 كلم/ساعة (وقد تنخفض إلى 50 أو 40 كلم/ساعة في المناطق المكتظة).</li>
+            <li><strong>على الطرق الوطنية:</strong> 80 إلى 100 كلم/ساعة.</li>
+            <li><strong>على الطرق السيارة:</strong> 120 كلم/ساعة.</li>
           </ul>
 
-          <h3>2. قواعد المدارات (الروند-بوان) والتقاطعات</h3>
-          <p>في معظم المدارات الحديثة بالرباط وسلا، تكون الأسبقية للعربات **المتواجدة داخل المدار** (الأسبقية لليسار). ومع ذلك، انتبه دائماً لعلامات المرور عند المدخل، فبعض المدارات القديمة أو التقاطعات غير المجهزة بعلامات تطبق **حق الأسبقية لليمين**.</p>
+          <h3>2. قواعد المدارات، أولوية الترامواي والسدود الأمنية</h3>
+          <p>في معظم المدارات الحديثة، تكون الأسبقية للعربات المتواجدة داخل المدار (الأسبقية لليسار). وتذكر دائماً أن **للترامواي أسبقية مطلقة** في جميع الحالات ويجب عدم الوقوف فوق السكة الحديدية أبداً. عند الاقتراب من السدود الأمنية عند مداخل المدن، خفف السرعة وتوقف تماماً عند لافتة "قف - شرطة" وانتظر إشارة الشرطي للمرور.</p>
 
-          <h3>3. الانتباه لترامواي الرباط-سلا</h3>
-          <p>يربط الترامواي بين مدينتي الرباط وسلا عبر شوارع رئيسية كبرى. يتمتع الترامواي **بأسبقية مطلقة دائماً** على جميع السيارات، بما في ذلك داخل المدارات. لا تقف أبداً فوق السكة الحديدية وخفف السرعة عند التقاطعات.</p>
-
-          <h3>4. السدود القضائية ونقاط المراقبة</h3>
-          <p>عند مداخل ومخارج المدن، ستصادف سدوداً أمنية للشرطة أو الدرك الملكي. خفف سرعتك مسبقاً وتوقف عند علامة "قف - شرطة" أو "قف - درك" وانتظر إشارة الشرطي المرور باليد للانطلاق مجدداً.</p>
-
-          <h3>5. فهم نظام ركن السيارات وحراس السيارات</h3>
-          <p>يخضع ركن السيارات في وسط المدينة للتذاكر المدفوعة (المنطقة الزرقاء). بالإضافة إلى ذلك، يتواجد حراس سيارات رسميون يرتدون سترات عاكسة للضوء. من المعتاد منحهم مبلغاً بسيطاً عند المغادرة: درهمين إلى 3 دراهم للوقوف القصير نهاراً، و5 إلى 10 دراهم للمبيت ليلاً.</p>
+          <h3>3. ركن السيارات وحراس السيارات (العساس)</h3>
+          <p>يخضع ركن السيارات في وسط المدينة للتذاكر المدفوعة (المنطقة الزرقاء). ويتواجد حراس يرتدون سترات عاكسة للضوء في معظم الشوارع لحراسة السيارات ومساعدتك في ركنها، ومن المعتاد منحهم إكرامية بسيطة عند مغادرتك: 2 إلى 3 دراهم نهاراً، و 5 إلى 10 دراهم للمبيت ليلاً.</p>
         `,
-        tags: ["قيادة", "نصائح", "سياحة"]
+        tags: ["القيادة", "نصائح", "سياحة"]
       }
     }
   },
@@ -317,76 +348,58 @@ export const BLOGS: BlogPost[] = [
     id: "blog-6",
     slug: "pourquoi-louer-voiture-sala-al-jadida",
     title: "Pourquoi louer une voiture à Sala Al Jadida pour votre séjour",
-    excerpt: "Découvrez les avantages de choisir l'agence de location O'Salon basée à Sala Al Jadida pour vos déplacements au Maroc.",
+    excerpt: "Découvrez les avantages de choisir l'agence de location O'Salon basée à Sala Al Jadida pour vos déplacements professionnels et touristiques au Maroc.",
     content: `
       <h2>Sala Al Jadida : Un emplacement stratégique pour votre location de voiture</h2>
-      <p>Lorsqu'on planifie un voyage dans la région de Rabat-Salé, le choix de son agence de location de voiture est primordial. Baser votre choix sur **Sala Al Jadida** présente des avantages logistiques et économiques exceptionnels pour les professionnels comme pour les touristes. Voici pourquoi :</p>
+      <p>Lorsqu'on planifie un voyage ou un déplacement professionnel dans la région de Rabat-Salé, le choix de son agence de location de voiture est primordial. Choisir notre agence basée à **Sala Al Jadida** présente des avantages logistiques, économiques et de confort exceptionnels pour les professionnels comme pour les touristes. Voici pourquoi :</p>
 
       <h3>1. Accès direct et rapide au réseau autoroutier</h3>
-      <p>Sala Al Jadida bénéficie d'une position géographique privilégiée. Située juste à la sortie de la rocade de Rabat et de l'autoroute A2 (Rabat-Fès), elle vous permet de prendre la route immédiatement vers Casablanca, Tanger ou Fès sans avoir à subir les embouteillages et le trafic dense du centre-ville de Rabat ou des ruelles étroites de Salé.</p>
+      <p>Sala Al Jadida bénéficie d'une position géographique privilégiée. Située juste à la sortie de la rocade de contournement de Rabat et à l'embranchement de l'autoroute A2 (Rabat-Fès), elle vous permet de prendre la route immédiatement vers Casablanca, Tanger ou Fès sans avoir à subir les embouteillages denses et stressants du centre-ville de Rabat ou les ruelles étroites de Salé.</p>
 
       <h3>2. La proximité immédiate avec Technopolis et l'UIR</h3>
-      <p>Si vous voyagez pour affaires, Sala Al Jadida est le cœur technologique de la région. Elle abrite la zone d'activités **Technopolis** (qui regroupe de nombreuses multinationales du secteur informatique et de l'offshoring) ainsi que l'**Université Internationale de Rabat (UIR)**. Louer une voiture à Sala Al Jadida est la solution idéale pour vos déplacements quotidiens entre vos rendez-vous professionnels et votre hébergement.</p>
+      <p>Si vous voyagez pour affaires, Sala Al Jadida est le cœur technologique de la région. Elle abrite la zone d'activités moderne **Technopolis** (qui regroupe de nombreuses multinationales du secteur de l'offshoring et de l'IT) ainsi que l'**Université Internationale de Rabat (UIR)**. Louer une voiture à Sala Al Jadida est la solution la plus simple pour vos navettes quotidiennes entre vos rendez-vous professionnels et votre hébergement.</p>
 
       <h3>3. Des tarifs ultra-compétitifs avec O'Salon Rental</h3>
-      <p>En choisissant une agence locale basée à Sala Al Jadida comme O'Salon Car, vous évitez les taxes d'aéroport et les frais supplémentaires souvent appliqués par les grandes enseignes internationales. Vous bénéficiez de tarifs de location transparents, flexibles et nettement plus avantageux pour des véhicules récents et parfaitement entretenus.</p>
+      <p>En choisissant une agence locale de confiance basée à Sala Al Jadida comme O'Salon, vous évitez les taxes d'aéroport élevées et les frais supplémentaires appliqués par les grandes franchises internationales. Vous bénéficiez de tarifs de location transparents, transparents et nettement plus avantageux pour des véhicules récents et parfaitement entretenus.</p>
 
-      <h3>4. Service de livraison de voiture personnalisé et gratuit</h3>
-      <p>Pour vous offrir un confort optimal, notre agence propose un service de livraison de véhicule sur mesure. Que vous logiez dans une résidence à Sala Al Jadida, dans un hôtel de la Marina de Salé, ou que vous arriviez directement à la gare de Rabat-Agdal, nos agents vous livrent votre voiture de location directement à votre adresse gratuitement ou à un coût minimal.</p>
+      <h3>4. Service de livraison de voiture personnalisé</h3>
+      <p>Pour vous offrir un confort optimal, notre agence propose un service de livraison de véhicule sur mesure. Que vous logiez dans une résidence à Sala Al Jadida, dans un hôtel de la Marina de Salé, ou que vous arriviez directement à la gare ferroviaire TGV de Rabat-Agdal, nos agents vous livrent votre voiture de location directement à votre adresse gratuitement ou à coût minime.</p>
 
       <h3>5. Stationnement facile et tranquillité d'esprit</h3>
-      <p>Contrairement au centre-ville de Rabat où trouver une place de parking relève du défi quotidien, Sala Al Jadida offre de larges avenues résidentielles et des zones de stationnement sécurisées. C'est l'endroit idéal pour séjourner au calme tout en restant connecté à tous les points d'intérêts de la capitale.</p>
+      <p>Contrairement au centre-ville de Rabat où trouver une place de parking relève du défi quotidien, Sala Al Jadida offre de larges avenues résidentielles et des zones de stationnement gratuites et sécurisées. C'est l'endroit idéal pour séjourner au calme tout en restant parfaitement connecté à tous les points d'intérêts de la capitale.</p>
     `,
-    image: "/blog-sala-al-jadida.png",
+    image: "/blogs/pourquoi-louer-voiture-sala-al-jadida/hero.png",
     date: "2024-04-20",
     author: "O'Salon Team",
     tags: ["Sala Al Jadida", "Services", "Location"],
     translations: {
       en: {
         title: "Why Rent a Car in Sala Al Jadida for Your Stay",
-        excerpt: "Discover the benefits of choosing the O'Salon rental agency based in Sala Al Jadida for your travels in Morocco.",
+        excerpt: "Discover the benefits of choosing the O'Salon rental agency based in Sala Al Jadida for your business or tourist travels in Morocco.",
         content: `
           <h2>Sala Al Jadida: A Strategic Location for Your Car Rental</h2>
           <p>When planning a trip to the Rabat-Salé region, selecting the right location for your car rental agency is key. Choosing a vehicle in **Sala Al Jadida** offers outstanding logistical and economic advantages for both business travelers and tourists. Here is why:</p>
 
-          <h3>1. Immediate and Direct Access to Major Highways</h3>
-          <p>Sala Al Jadida enjoys a premium geographic location. Situated right next to the Rabat bypass and the A2 highway (Rabat-Fes), it allows you to hit the road immediately towards Casablanca, Tangier, or Fes without wasting time in the heavy traffic of downtown Rabat.</p>
+          <h3>1. Direct Highway Access and Proximity to Business Hubs</h3>
+          <p>Sala Al Jadida enjoys an ideal geographic location. Situated right next to the Rabat bypass and the A2 highway, it allows you to hit the road immediately towards Casablanca, Tangier, or Fes without wasting time in heavy downtown traffic. It is also located just 5 minutes away from the **Technopolis** business park (housing major global IT and outsourcing corporations) and the **International University of Rabat (UIR)** campus.</p>
 
-          <h3>2. Close Proximity to Technopolis and UIR</h3>
-          <p>If you are traveling for business, Sala Al Jadida is the technological heart of the capital. It houses the **Technopolis** business park (home to major global IT and outsourcing corporations) and the **International University of Rabat (UIR)**. Renting a car locally is the most convenient way to commute between your business meetings.</p>
-
-          <h3>3. Highly Competitive Rates with O'Salon Car</h3>
-          <p>By renting from a localized agency in Sala Al Jadida like O'Salon Car, you bypass the high airport desk surcharges and international brand fees. You receive honest, flexible local rates and high-quality customer service with a fully maintained modern fleet.</p>
-
-          <h3>4. Free Custom Vehicle Delivery Service</h3>
-          <p>To make your travel seamless, our agency provides a personalized car delivery service. Whether you are staying in a local residence in Sala Al Jadida, a hotel near the Salé Marina, or arriving at the Rabat-Agdal train station, our team can drop off and pick up your rental car directly at your doorstep.</p>
-
-          <h3>5. Easy Parking and Peaceful Environment</h3>
-          <p>Unlike downtown Rabat where finding a parking space is incredibly difficult, Sala Al Jadida features wide, quiet avenues with plenty of safe parking spaces. It is the perfect place to base your stay in a peaceful atmosphere while remaining fully connected.</p>
+          <h3>2. Highly Competitive Rates and Free Local Delivery</h3>
+          <p>By renting from a local agency in Sala Al Jadida like O'Salon, you bypass the high airport desk surcharges and international brand fees. You receive honest, flexible local rates and high-quality customer service with a fully maintained modern fleet. To make your travel seamless, we provide personalized car delivery directly to your hotel or residence, or even at the Rabat-Agdal train station.</p>
         `,
         tags: ["Sala Al Jadida", "Services", "Rental"]
       },
       ar: {
         title: "لماذا تكتري سيارة من سلا الجديدة خلال إقامتك",
-        excerpt: "اكتشف مزايا اختيار وكالة O'Salon المتواجدة في سلا الجديدة لتنقلاتك في المغرب.",
+        excerpt: "اكتشف مزايا اختيار وكالة O'Salon المتواجدة في سلا الجديدة لتنقلاتك المهنية والسياحية في المغرب.",
         content: `
           <h2>سلا الجديدة: موقع استراتيجي مثالي لكراء السيارات</h2>
-          <p>عند التخطيط لرحلة إلى منطقة الرباط وسلا، فإن اختيار وكالة كراء السيارات المناسبة أمر أساسي. يوفر اختيار سيارة في **سلا الجديدة** مزايا لوجستية واقتصادية استثنائية لرجال الأعمال والسياح على حد سواء. وإليك الأسباب:</p>
+          <p>عند التخطيط لرحلة عمل أو سياحة إلى منطقة الرباط وسلا، فإن اختيار مقر وكالة كراء السيارات الخاص بك أمر بالغ الأهمية. يوفر اختيار سيارة في **سلا الجديدة** مزايا لوجستية واقتصادية ممتازة لرجال الأعمال والسياح على حد سواء. وإليك الأسباب:</p>
 
-          <h3>1. وصول مباشر وسريع لشبكة الطرق السيارة</h3>
-          <p>تتمتع سلا الجديدة بموقع جغرافي متميز للغاية. تقع مباشرة بالقرب من الطريق الالتفافي للرباط والطريق السيار A2 (الرباط-فاس)، مما يتيح لك الانطلاق فوراً نحو الدار البيضاء، طنجة، أو فاس دون الحاجة للمرور عبر الاختناقات المرورية في وسط مدينة الرباط أو شوارع سلا الضيقة.</p>
+          <h3>1. وصول سريع لشبكة الطرق السيارة والقرب من تكنوبوليس وجامعة UIR</h3>
+          <p>تتمتع سلا الجديدة بموقع جغرافي استثنائي يقع مباشرة بالقرب من الطريق الالتفافي للرباط والطريق السيار A2 (الرباط-فاس)، مما يتيح لك الانطلاق فوراً نحو الدار البيضاء، طنجة، أو فاس دون الحاجة للمرور عبر اختناقات وسط مدينة الرباط. كما أنها تبعد 5 دقائق فقط عن منطقة الأنشطة الاقتصادية **تكنوبوليس** و **الجامعة الدولية للرباط (UIR)**.</p>
 
-          <h3>2. القرب المباشر من تكنوبوليس والجامعة الدولية للرباط (UIR)</h3>
-          <p>إذا كنت تسافر من أجل العمل، فإن سلا الجديدة هي القلب التكنولوجي للمنطقة. فهي تضم منطقة الأنشطة **تكنوبوليس** (التي تجمع كبرى الشركات متعددة الجنسيات في قطاع التكنولوجيا) بالإضافة إلى **الجامعة الدولية للرباط**. كراء سيارة هنا هو الحل الأفضل لتنقلاتك المهنية اليومية.</p>
-
-          <h3>3. أسعار تنافسية للغاية مع O'Salon Car</h3>
-          <p>باختيارك لوكالة محلية مقرها في سلا الجديدة مثل O'Salon Car، فإنك تتجنب رسوم المطارات المرتفعة وتكاليف الوكالات الدولية. ستحصل على أسعار كراء واضحة، مرنة، ومناسبة جداً مع أسطول سيارات حديث ومصان بدقة.</p>
-
-          <h3>4. خدمة تسليم واستلام السيارة مجاناً وبشكل مخصص</h3>
-          <p>لنوفر لك أقصى درجات الراحة، تقدم وكالتنا خدمة تسليم السيارة المخصصة. سواء كنت تقيم في سلا الجديدة، أو في فندق بمارينا سلا، أو تصل لـ محطة قطار الرباط أكدال، يقوم فريقنا بتوصيل السيارة مباشرة إلى مكان إقامتك مجاناً أو بتكلفة رمزية.</p>
-
-          <h3>5. سهولة ركن السيارات والهدوء التام</h3>
-          <p>على عكس وسط مدينة الرباط حيث يعتبر العثور على مكان لركن السيارة تحدياً يومياً، توفر سلا الجديدة شوارع سكنية واسعة وهادئة مع مساحات ركن آمنة ومتوفرة بكثرة، مما يمنحك راحة البال طوال فترة إقامتك.</p>
+          <h3>2. أسعار تنافسية وخدمة تسليم مخصصة مجانية</h3>
+          <p>باختيارك لوكالة O'Salon Car المحلية، فإنك تتجنب رسوم المطارات المرتفعة وتكاليف التوكيلات الدولية، وستحصل على أسعار كراء واضحة ومناسبة جداً مع أسطول سيارات حديث. ولنوفر لك أقصى درجات الراحة، يقدم فريقنا خدمة توصيل السيارة مباشرة إلى مكان إقامتك أو محطة قطار الرباط أكدال مجاناً.</p>
         `,
         tags: ["سلا الجديدة", "خدمات", "كراء"]
       }
